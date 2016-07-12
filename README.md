@@ -1,0 +1,1 @@
+# yicon-static
