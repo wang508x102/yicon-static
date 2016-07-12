@@ -1,0 +1,49 @@
+@charset "utf-8";
+$fontTitleColor:#344562
+$fontContentColor: #616161
+$fontTipColor:#9e9e9e
+$mainColor: #3bbaff
+$btnColor: #008ed6
+$btnHoverColor: #00b7ee
+$iconColor: #555f6e
+
+
+//reset
+
+@font-face {
+  font-family: 'ifont';
+  src: url('//at.alicdn.com/t/font_1442303789_7236025.eot');
+  src: url('//at.alicdn.com/t/font_1442303789_7236025.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1442303789_7236025.woff') format('woff'),url('//at.alicdn.com/t/font_1442303789_7236025.ttf') format('truetype'),  url('//at.alicdn.com/t/font_1442303789_7236025.svg#ifont') format('svg');
+  /* IE9*/
+  /* iOS 4.1- */
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
+
+a {
+	color: #ff4081;
+	text-decoration: none
+}
+a:hover {
+	text-decoration: underline
+}
+html {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased
+}
+body, h1, h2, h3, h4, h5, h6 {
+	margin: 0
+}
+body {
+	font-size: 15px;
+	line-height: 24px
+}

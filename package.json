@@ -1,0 +1,32 @@
+{
+  "name": "yicon-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "compiler": "node-sass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang508x102/yicon-static.git"
+  },
+  "author": "leila.wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wang508x102/yicon-static/issues"
+  },
+  "homepage": "https://github.com/wang508x102/yicon-static#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+    "gulp-plumber": "1.0.1",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass-china": "2.3.1",
+    "gulp-util": "3.0.6",
+    "node-notifier": "4.2.3",
+    "node-sass-china": "3.7.0",
+    "optimist": "^0.6.1",
+    "through2": "2.0.0"
+  }
+}
