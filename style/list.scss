@@ -1,0 +1,60 @@
+@charset "utf-8";
+.yicon-list{
+	width: 1100px;
+	margin: 0 auto;
+	.yicon-list-main{
+		width: 1110px;
+		margin-left: -5px;
+		.yicon-list-prj-item{
+		   margin: 40px 15px 0;
+		   width: 270px;
+		   padding:26px 35px;
+		   background-color: #fff;
+		   display: inline;
+		   float: left;
+		   overflow: hidden;
+		   dt{
+		   	text-align: center;
+		   	 h2{
+		   	 	font-size: 20px;
+		   	 	line-height: 20px;
+		   	 	color:#344562;
+		   	 }
+		   	 p{
+		   	 	
+		   	 	line-height: 14px;
+		   	 	color: #929aac;
+		   	 	margin-top: 14px;
+		   	 	i{
+		   	 		font-style: normal;
+		   	 		font-size: 14px;
+		   	 	}
+		   	 	span{
+					margin-left: 8px;
+		   	 	}
+		   	 }
+		   }
+		   .prj-item-icon{
+		   	margin-top: 14px;
+		   	li{
+		   		width:54px;
+		   		height: 50px;
+		   		/*background-color: red;*/
+		   		display: inline;
+		   		float: left;
+		   		text-align: center;
+		   		line-height: 54px;
+		   		color:#555f6e;
+		   		font-size: 20px;
+		   		.iconfont{
+		   			font-size: 24px;
+		   		}
+		   	}
+		   }
+		  
+		}
+	}
+	.main{
+		background: red;
+	}
+}

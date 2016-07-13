@@ -1,164 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。Qunar团队倾力打造，设计和前端开发的便捷工具" />
-  <meta name="keywords" content="Iconfont icon font svg 矢量图标库 在线存储 格式转换 Qunar移动前端团队  qunar" />
-	<title>首页</title>
-	<link rel="stylesheet" href="../export/common.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="Iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。Qunar团队倾力打造，设计和前端开发的便捷工具"/>
+    <meta name="keywords" content="Iconfont icon font svg 矢量图标库 在线存储 格式转换 Qunar移动前端团队  qunar"/>
+    <title>首页</title>
+    <link rel="stylesheet" href="../export/common.css">
+    <link rel="stylesheet" href="../export/list.css">
 </head>
 <body>
-	<div class="yicon-container">
-		<header class="yicon-nav yicon-nav-main">
-			<div class="yicon-nav-container">
-				<div class="logo">
-			      <i class="iconfont small-img">Icon Lab.</i>
-			      <p class="iconfont">Icon Lab.</p>
-			    </div>
-			    <nav class="head-nav quick-menu">
-			    	<ul class="clearfix">
-			    		<li class="lists"><a href="#">图标库</a>
-							<ul class="quick-menu-sub">
-				              <li><a href="/collections">官方公开库</a></li>
-				              <li><a href="/collections?personal=1">所有公开库</a></li>
-				            </ul>
-			    		</li>
-			    		<li class="lists"><a href="#">图标管理</a>
-							<ul class="quick-menu-sub">
-				              <li><a data-login="true" href="/users/myuploads">我上传的图标</a></li>
-				              <li><a data-login="true" href="/users/favourite">我收藏的图标</a></li>
-				              <li><a data-login="true" href="/users/project">图标应用项目</a></li>
-				              <li><a data-login="true" href="/users/collection">我的公开图标库</a></li>
-				            </ul>
-			    		</li>
-			    	</ul>
-			    </nav>
-				 <div class="quick-menu">
-      <ul class="clearfix">
+<div class="yicon-container">
+    <!-- 公用头 -->
+    <header class="yicon-nav yicon-nav-main">
+        <div class="yicon-nav-container">
+            <div class="logo">
+                <i class="iconfont small-img">Icon Lab.</i>
 
-        
-          <li class="lists">
-            
-              <a id="J_nologin" href="#">
-                <i class="iconfont ">XX</i>登录
-              </a>
-            
-          </li>
-
-          <li class="lists ml-15">
-            <a id="J_car" href="#">
-              <i title="暂存架" class="iconfont-n f19">XX</i>
-              <span id="J_fonts_count">0</span>
-            </a>
-            <div id="J_user_car" class="user-car car_empty">
-              <div class="car_bd">
-                <ul id="J_fonts_selected_list" class="clearfix fonts-selected-list"></ul>
-              </div>
-              <span class="arrow"></span>
-              <!-- <p class="car_info">您的暂存架为空，请添加图标。</p>
-              <div class="save_ct">
-                <div class="clear-car">
-                  <i class="iconfont">XX</i>  <a href="javascript:;" id="J_delete_car">清空暂存架</a>
-                </div>
-                <div class="btn-download">
-                  
-                  <div class="save_selection">
-                    <a data-uid="392" class="ibtn disabled" href="#"><span>存储为项目 <i class="iconfont">XX</i></span></a>
-                  </div>
-                  
-
-                  <a id="J_down_local" data-uid="392" data-cls="ibtn-download" class="ibtn ibtn-move ibtn-new ibtn-download" href="#"><span>下载至本地</span></a>
-                </div>
-              </div> -->
-              <div style="display:none;" class="font-cdn">
-
-                储存为：
-                <input type="text" placeholder="请输入储存名字,如首页改版项目" id="J_font_project_name" class="font-project-name">
-                <input type="hidden" value="0" id="J_font_project_id">
-                <span class="font-project-more button-icon">
-                  <i class="iconfont dot-up J_dot_arrow">XX</i>
-                  <i class="iconfont dot-down J_dot_arrow">XX</i>
-                  <i class="iconfont delete-font-project">XX</i>
-                  <ul class="font-porject-lists">
-                  </ul>
-                </span>
-                <a id="J_font_save" class="button-icon" href="#"><i class="iconfont">XX</i>储存</a>
-                <i id="J_down_local2" class="iconfont font_back">ƈ</i>
-              </div>
-
+                <p class="iconfont">Icon Lab.</p>
             </div>
-          </li>
-        
+            <nav class="head-nav quick-menu">
+                <ul class="clearfix">
+                    <li class="lists"><a href="#">图标库</a></li>
+                    <li class="lists"><a href="#">图标管理</a>
+                        <ul class="quick-menu-sub">
+                          <li><a href="#">我上传的图标</a></li>
+                          <li><a href="#">图标审核</a></li>
+                          <li><a href="#">我审核的图标</a></li>
+                          <li><a href="#">我的图标项目</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="quick-menu nav-menu-info">
+                <ul class="clearfix">
+                    <li class="lists">
 
-        <li class="lists">
-          <a id="J_upload_icon" href="/icons/uploadShow">
-            <i title="上传图标" class="iconfont-n f19">上传</i>
-          </a>
-        </li>
-        
-        <li class="lists last">
-          <div class="search-panel">
-            <form id="J_form_top" action="/search">
-              <div class="search-panel-fields">
-                <input type="text" value="" class="ks-combobox-input search-q" autocomplete="off" bx-path="components/gallery_placeholder/" bx-name="gallery_placeholder" placeholder="搜索图标" id="q" name="q" bx-behavior="true">
-              </div>
-              <i id="J_SearchIcon" class="iconfont search-icon">搜索icon</i>
-              <span class="search-icon-count">534645 Icons</span>
-            </form>
-          </div>
-        </li>
-        
-      </ul>
-    </div>
+                        <a class="avatar" href="#">
+                            <i class="iconfont">&#xf383;</i>
+                            王丽丽_ec
+                            <i class="iconfont">&#xf032;</i>
+                            <!--  <span class="name_arrow"></span> -->
+                        </a>
+                        <a class="nologin" href="#">
+                            <i class="iconfont ">&#xf383;</i>登录
+                        </a>
 
-    <div data-spm="1998699216" class="login-box" id="J_loginBox">
-	  <div class="login-methods">
-	    请选择登陆方式
-	    <ul class="clearfix">
-	      <li>
-	        <a class="avatar" href="/login_domain">
+                        <div class="user-dropdown" id="J_user_dropdown" style="display: block;">
+                            <ul>
+                                <li class="">
+                                    <a href="#">
+                                        权限管理
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#">
+                                        退出
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="arrow"></span>
+                        </div>
+                    </li>
+                    <li class="lists">
+                        <a href="#" class="nav-message">
+                            <i class="iconfont">&#xf03c;</i>
+                            <i class="nav-message-count">2</i>
+                        </a>
+                    </li>
+                    <li class="lists ml-15">
+                        <a id="J_car" href="#">
+                            <i title="暂存架" class="iconfont f19">&#xf057;</i>
+                            <span id="J_fonts_count">24</span>
+                        </a>
+
+                        <div class="user-car" id="J_user_car" style="display: block;">
+                            <div class="car_bd">
+                                <ul class="clearfix fonts-selected-list">
+                                    <li><span class="iconfont src_iconfont">&#xf042;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                    <li><span class="iconfont src_iconfont">&#xf046;<i
+                                            class="iconfont delete">&#xf077;</i></span></li>
+                                </ul>
+                            </div>
+                            <span class="arrow"></span>
+                            
+                            <p class="car_info">您的暂存架为空，请添加图标。</p>
+                            <div class="clearfix user-car-opt">
+                                <div class="save_ct">
+                                    <div class="clear-car">
+                                        <a href="javascript:;">清空</a>
+                                    </div>
+                                    <div class="btn-download">
+                                        
+                                        <div class="save_selection">
+                                            <a href="#" class="ibtn"><span>保存为项目 <i
+                                                    class="iconfont">&#xf032;</i></span></a>
+
+                                            <div class="save_selection_btns">
+                                                <a href="javascript:;" class="ibtn"><span>保存为项目 <i
+                                                    class="iconfont">&#xf032;</i></span></a>
+
+                                                <div id="J_save_history">
+                                                    <a href="javascript:;" class="ibtn"> 保存到已有项目</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="ibtn ibtn-move ibtn-new ibtn-download"><span class="iconfont">&#xf07b;</span></a>
+                                    </div>
+                            </div>
+
+
+                            <div class="font-cdn">
+                                <div class="font-project-name">
+                                    <input type="text" placeholder="请输入项目名称"/>
+                                    <i class="iconfont">&#xf032;</i>
+                                </div>
+                              
+                               <!--   <input type="hidden" id="J_font_project_id" value="0">
+                                   <span class="font-project-more button-icon">
+                                      <i class="iconfont dot-up J_dot_arrow">ö</i>
+                                      <i class="iconfont dot-down J_dot_arrow">ó</i>
+                                      <i class="iconfont delete-font-project">ź</i>
+                                      <ul class="font-porject-lists"></ul>
+                                    </span> -->
+
+                                <a href="#" class="button-icon" id="J_font_save"
+                                   >确定</a>
+                                <a href="#" class="button-icon">取消</a>
+                                
+                            </div>
+
+
+                            <div class="font-cdn save-to-old-pjc">
+                                <div class="font-project-name">
+                                    <input type="text" placeholder="请选择项目"/>
+                                    <i class="iconfont">&#xf032;</i>
+                                    <div class="save_to_pjc">
+                                        <ul >
+                                            <li>首页改版项目</li>
+                                            <li>首页改版项目</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              
+                               <!--   <input type="hidden" id="J_font_project_id" value="0">
+                                   <span class="font-project-more button-icon">
+                                      <i class="iconfont dot-up J_dot_arrow">ö</i>
+                                      <i class="iconfont dot-down J_dot_arrow">ó</i>
+                                      <i class="iconfont delete-font-project">ź</i>
+                                      <ul class="font-porject-lists"></ul>
+                                    </span> -->
+
+                                <a href="#" class="button-icon" id="J_font_save"
+                                   >确定</a>
+                                <a href="#" class="button-icon">取消</a>
+                                
+                            </div>
+
+
+                            </div>
+                            
+                    </li>
+
+                    <li class="lists last">
+                        <div class="search-panel">
+                            <form id="J_form_top" action="/search">
+                                <div class="search-panel-fields">
+                                    <input type="text" value="" class="ks-combobox-input search-q" autocomplete="off"
+                                           bx-path="components/gallery_placeholder/" bx-name="gallery_placeholder"
+                                           placeholder="请输入icon名称/编码/TAG" id="q" name="q" bx-behavior="true">
+                                </div>
+                                <i id="J_SearchIcon" class="iconfont search-icon">&#xf00f;</i>
+                            </form>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div data-spm="1998699216" class="login-box" id="J_loginBox">
+                <div class="login-methods">
+                    请选择登陆方式
+                    <ul class="clearfix">
+                        <li>
+                            <a class="avatar" href="/login_domain">
 	          <span class="login-icons">
 	            <span class="login-icon">
 	              <i class="iconfont">è</i>
 	              <i class="iconfont iconfont-domain">è</i>
 	            </span>
 	          </span>
-	        </a>
-	        <span class="login_type">域账号</span>
-	      </li>
+                            </a>
+                            <span class="login_type">域账号</span>
+                        </li>
 
-	      <li>
-	        <a class="avatar" href="/auth/weibo">
-	        <!-- <a href="javascript:;" class="avatar"> -->
+                        <li>
+                            <a class="avatar" href="/auth/weibo">
+                                <!-- <a href="javascript:;" class="avatar"> -->
 	          <span class="login-icons">
 	            <span class="login-icon">
 	              <i class="iconfont">ǔ</i>
 	              <i class="iconfont iconfont-weibo">ǔ</i>
 	            </span>
 	          </span>
-	        </a>
-	        <span class="login_type">新浪账号</span>
-	      </li>
-	      <li class="last">
-	        <!-- <a href="/auth/taobao" class="avatar"> -->
-	        <a class="avatar" href="javascript:;">
+                            </a>
+                            <span class="login_type">新浪账号</span>
+                        </li>
+                        <li class="last">
+                            <!-- <a href="/auth/taobao" class="avatar"> -->
+                            <a class="avatar" href="javascript:;">
 	          <span class="login-icons">
 	            <span class="">
-	              <i style="color:#E2E2E2" class="iconfont">Ƹ</i>
+	              <i class="iconfont">Ƹ</i>
 	              <i class="iconfont iconfont-tao">Ƹ</i>
 	            </span>
 	          </span>
-	        </a>
-	        <span style="color:#E2E2E2" class="login_type">淘宝账号</span>
-	      </li>
+                            </a>
+                            <span class="login_type">淘宝账号</span>
+                        </li>
 
-	    </ul>
-	  </div>
-	</div>
-			</div>
-		</header>
-		
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="yicon-main yicon-list clearfix">
+        <div class="yicon-list-main">
+            <dl class="yicon-list-prj-item">
+                <dt>
+                    <h2>无线大客户端</h2>
+                    <p><i>93 icons</i><span>文菁菁</span></p>
+                </dt>
+                <dd>
+                    <ul class="prj-item-icon">
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="yicon-list-prj-item">
+                <dt>
+                    <h2>无线大客户端</h2>
+                    <p><i>93 icons</i><span>文菁菁</span></p>
+                </dt>
+                <dd>
+                    <ul class="prj-item-icon">
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="yicon-list-prj-item">
+                <dt>
+                    <h2>无线大客户端34333</h2>
+                    <p><i>93 icons</i><span>文菁菁</span></p>
+                </dt>
+                <dd>
+                    <ul class="prj-item-icon">
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="yicon-list-prj-item">
+                <dt>
+                    <h2>无线大客户端44444</h2>
+                    <p><i>93 icons</i><span>文菁菁</span></p>
+                </dt>
+                <dd>
+                    <ul class="prj-item-icon">
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                    </ul>
+                </dd>
+            </dl>
+            <dl class="yicon-list-prj-item">
+                <dt>
+                    <h2>无线大客户端5555</h2>
+                    <p><i>93 icons</i><span>文菁菁</span></p>
+                </dt>
+                <dd>
+                    <ul class="prj-item-icon">
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                    </ul>
+                </dd>
+            </dl>
+                 <dl class="yicon-list-prj-item">
+                <dt>
+                    <h2>无线大客户端44444</h2>
+                    <p><i>93 icons</i><span>文菁菁</span></p>
+                </dt>
+                <dd>
+                    <ul class="prj-item-icon">
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                        <li><i class="iconfont">&#xf042;</i></li>
+                    </ul>
+                </dd>
+            </dl>
+           
 
-	</div>
+        </div>
+      
+    </div>
+
+
+
+    <!-- 公用尾 -->
+    <footer class="yicon-footer">
+        <ul class="yicon-footer-link">
+            <li><a href="#">去哪儿网UED </a></li>              
+            <li><a href="#"> FEKit</a></li>              
+            <li><a href="#">Avalon</a></li>              
+            <li><a href="#">Oniui</a></li>
+        </ul>
+        <span class="yicon-footer-copyright">
+            <i class="copyright-ico">©</i> <em class="copyright-year">2003-2016</em> qunar.com 版权所有
+        </span>
+    </footer>
+</div>
 </body>
 </html>

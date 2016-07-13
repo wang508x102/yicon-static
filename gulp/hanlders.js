@@ -3,6 +3,7 @@ var notifier = require('node-notifier');
 
 // Error Handler
 function errorHandler(e) {
+    console.log('error,,,,,,,');
     notifier.notify({
         title: 'Sass Error',
         message: e.fileName,
@@ -10,6 +11,7 @@ function errorHandler(e) {
         sound: true
     });
     gutil.log(gutil.colors.red(e.message));
+    this.emit('end');
 }
 
 // End Handler
