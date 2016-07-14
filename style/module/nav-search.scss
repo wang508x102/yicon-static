@@ -1,0 +1,142 @@
+/* 存储为项目*/
+
+/* 悬浮下拉 */
+.save_selection {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  line-height: 28px;
+  vertical-align: top;
+  background:#008ed6;
+  width: 106px;
+  text-align: center;
+  .ibtn {
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+  }
+
+  .save_selection_btns {
+    display: none;
+    position: absolute;
+    z-index: 300;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: visible;
+  }
+
+  .iconfont {
+    display: inline;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+ 
+
+}
+ 
+.save_selection:hover {
+  .save_selection_btns {
+    display: block;
+    background-color: #008ed6;
+    border-radius: 2px;
+  }
+
+}
+
+.save_selection .save_selection_btns #J_save_history:hover a {
+  position: relative;
+  background-color: white;
+  color: #008ed6;
+  margin-right: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  z-index: 300;
+}
+
+.save_selection .save_selection_btns #J_save_history:hover .save_to_pjc {
+  display: block;
+}
+
+.save-to-old-pjc{
+  position: relative;
+}
+.save_to_pjc {
+    display: block;
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    z-index: 201;
+    /*background-color: #008ed6;*/
+    width: 250px;
+    border:1px solid #dfdfdf;
+    border-top: none;
+    border-radius: 3px;
+    border-top-left-radius: 0px;
+
+    ul {
+      background-color: #fff;
+      border-radius: 2px;
+      color: #008ed6;
+      min-height: 74px;
+      max-height: 300px;
+      overflow-y: auto;
+
+      li {
+        list-style: none;
+        line-height: 30px;
+        padding: 0 11px;
+        border:0;
+        border-radius: 0;
+        text-align: left;
+        cursor: pointer;
+        position: static;
+        float: none;
+        width: inherit;
+        height: inherit;
+        color: #344562;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        .J_arrow_down {
+          visibility: hidden;
+        }
+        
+      }
+
+      li:hover {
+        background-color: #f8f8f8;
+        .J_arrow_down {
+          visibility: visible;
+        }
+
+      }
+
+    }
+
+  }
+
+
+.car_empty {
+  .car_info {
+    display: block;
+  }
+
+  .btn-download {
+    display: none;
+  }
+
+}
+
+.user-car .button-icon .delete-font-project,
+.button-icon:hover .delete-font-project {
+  display: none;
+  position: absolute;
+  left: -24px;
+  top: 1px;
+  color: #505050;
+}
