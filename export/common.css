@@ -224,7 +224,7 @@ iframe {
   width: 100%;
   height: 64px;
   z-index: 99;
-  background-color: #000c15;
+  background: #000c15 url(./../images/yicon-header-bg.jpg) center bottom no-repeat;
 }
 
 .yicon-nav .yicon-nav-container {
