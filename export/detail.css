@@ -231,13 +231,11 @@
 .yicon-detail-main {
   width: 1100px;
   margin: 0 auto;
-  background-color: red;
 }
 
 .yicon-detail-main .yicon-detail-list {
-  width: 1180px;
-  border: 1px;
-  margin-left: -7px;
+  width: 1136px;
+  margin-left: -18px;
 }
 
 .user-car {
