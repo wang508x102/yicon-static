@@ -62,6 +62,10 @@
   font-size: 24px;
 }
 
+.yicon-list .yicon-list-main .yicon-list-prj-item:hover {
+  box-shadow: 0 0 10px #d6e9f6;
+}
+
 .yicon-list .main {
   background: red;
 }

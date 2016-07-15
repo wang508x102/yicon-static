@@ -211,7 +211,6 @@ iframe{display:block}
           background-color: #fff;
           position: absolute;
           border: 1px solid #c9d0d5;
-          border-shadow: 5px;
           border-top: none;
           z-index: 9;
           display: none;
@@ -219,7 +218,7 @@ iframe{display:block}
           left: 0;  
           padding: 5px 0;
           text-align: center;
-
+          box-shadow:0 0 5px #e2e4e7;
           li {
             line-height:23px;
             padding: 0 10px;
@@ -285,7 +284,8 @@ iframe{display:block}
       .user-car {
         width: 400px;
         position: absolute;
-        border: 1px solid #ccc;
+        border: 1px solid #e2e4e7;
+        box-shadow:0 0 5px #e2e4e7;
         border-top: none;
         left: -30px;
         top: 55px;
@@ -633,6 +633,7 @@ iframe{display:block}
       }
       .save_to_pjc {
         display: block;
+
       }
     }
   }
@@ -673,10 +674,10 @@ iframe{display:block}
     border-top: none;
     border-radius: 3px;
     border-top-left-radius: 0px;
+    box-shadow:0 0 5px #dfdfdf;
     ul {
       background-color: #fff;
       padding:5px 0;
-      border-radius: 2px;
       color: $btnColor;
       max-height: 300px;
       overflow-y: auto;

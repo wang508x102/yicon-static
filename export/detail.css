@@ -117,6 +117,7 @@
 .yicon-detail-info {
   background-color: #fff;
   border-bottom: 1px solid #dadcde;
+  box-shadow: 0 0 5px #dadcde;
 }
 
 .yicon-detail-info-container {
