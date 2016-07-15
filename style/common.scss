@@ -1,6 +1,6 @@
 @charset "utf-8";
 $fontTitleColor:#344562;$fontContentColor:#616161;$fontTipColor:#9e9e9e;$mainColor:#3bbaff;$btnColor:#008ed6;$btnHoverColor:#00b7ee;$iconColor:#555f6e;
-@font-face{font-family:iconfont;font-style:normal;font-weight:normal;src:url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.eot?v=1.0.6);src:url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.eot?#iefix&#iefix&amp;v=1.0.6) format('embedded-opentype'),url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.woff?v=1.0.6) format('woff'),url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.ttf?v=1.0.6) format('truetype'),url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.svg?v=1.0.6#icomoonregular) format('svg')}
+@font-face{font-family:iconfont;font-style:normal;font-weight:normal;src:url(./../font/QIconLab.eot?v=1.0.6);src:url(./../font/QIconLab.eot?#iefix&#iefix&amp;v=1.0.6) format('embedded-opentype'),url(./../font/QIconLab.woff?v=1.0.6) format('woff'),url(./../font/QIconLab.ttf?v=1.0.6) format('truetype'),url(./../font/QIconLab.svg?v=1.0.6#icomoonregular) format('svg')}
 .iconfont{font-family:iconfont!important;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;vertical-align:middle;}
 .clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
 .clearfix{*zoom:1;}
@@ -133,14 +133,14 @@ iframe{display:block}
 
       li:hover {
         a {
-          color: #3bbaff;
+          color: $mainColor;
         }
 
       }
 
       .current {
         a {
-          color: #3bbaff;
+          color: $mainColor;
         }
       }
 
@@ -201,6 +201,7 @@ iframe{display:block}
         .upload {
           color: #929aac;
           line-height: 64px;
+          font-size: 14px;
         }
 
         /* 权限管理下拉 */
@@ -215,11 +216,12 @@ iframe{display:block}
           z-index: 9;
           display: none;
           top: 55px;
-          left: 0; /* padding: 10px 0;*/
+          left: 0;  
+          padding: 5px 0;
           text-align: center;
 
           li {
-            line-height: 30px;
+            line-height:23px;
             padding: 0 10px;
           }
 
@@ -228,11 +230,11 @@ iframe{display:block}
           }
 
           li a {
-            color: #344562;
+            color: $fontTitleColor;
           }
 
           li:hover a {
-            color: #344562;
+            color: $fontTitleColor;
           }
 
           .arrow {
@@ -304,70 +306,60 @@ iframe{display:block}
           padding: 8px 0 0 12px;
         }
 
-        li {
-          float: left;
-          text-align: center;
-          line-height: 54px;
-          color: #262533;
-          width: 54px;
-          height: 54px;
-          border: 1px solid red;
-          border-radius: 5px;
-
-          .src_iconfont {
-            position: relative;
-            display: block;
-            color: #555f6e;
-            height: 54px;
-            line-height: 54px;
-
-            .delete {
-              font-size: 10px;
-              line-height: 12px;
-              position: absolute;
-              right: 0;
-              top: 0;
-              display: none;
-              cursor: pointer;
-              color: #555f6e;
-              background-color: red;
-            }
-
-          }
-
-          .src_iconfont:hover {
-            background-color: #eff0f4;
-
-            .delete {
-              display: block;
-            }
-
-          }
-
-        }
-
-        .car_info {
-          text-align: center;   /* display: none;*/
-        }
+       
 
         .fonts-selected-list {
           overflow-x: hidden;
           overflow-y: auto;
           max-height: 185px;
           padding: 10px 0 0;
+         li {
+                  float: left;
+                  text-align: center;
+                  line-height: 54px;
+                  color: #262533;
+                  width: 54px;
+                  height: 54px;
+                  /*border: 1px solid red;*/
+                  border-radius: 5px;
+                  margin: 4px 0 0 0;
+                  .src_iconfont {
+                    position: relative;
+                    display: block;
+                    color: $iconColor;
+                    height: 54px;
+                    line-height: 54px;
 
-          li {
-            float: left;
-            text-align: center;
-            margin: 4px 0 0 0;
-          }
+                    .delete {
+                      font-size: 10px;
+                      line-height: 12px;
+                      position: absolute;
+                      right: 0;
+                      top: 0;
+                      display: none;
+                      cursor: pointer;
+                      color: $iconColor;
+                  /*    background-color: red;*/
+                    }
 
+                  }
+
+                  .src_iconfont:hover {
+                    background-color: #eff0f4;
+
+                    .delete {
+                      display: block;
+                    }
+
+                  }
+
+                }
           .src_iconfont {
             display: block;
             font-size: 26px;
             position: relative;
             margin: 0 auto;
-            color: #555f6e;
+            color: $iconColor;
           }
 
           .code {
@@ -387,7 +379,6 @@ iframe{display:block}
             border: 1px solid #dfdfdf;
             background-color: #fff;
             position: relative;
-
             input {
               width: 230px;
               float: left;
@@ -395,7 +386,10 @@ iframe{display:block}
               text-indent: 10px;
               border: none;
             }
-
+            .iconfont{
+              font-size: 14px;
+              color:#929aac;
+            }
           }
 
           .button-icon {
@@ -404,7 +398,13 @@ iframe{display:block}
             padding: 0 16px;
             line-height: 28px;
           }
-
+          .button-cancel{
+            border: 1px solid #ccc;
+            color: $btnColor;
+            line-height: 26px;
+            margin-left: 6px;
+            background-color: #fff;
+          }
           .font-project-icons {
             color: #ccc;
             overflow-x: hidden;
@@ -469,7 +469,7 @@ iframe{display:block}
         .button-icon {
           line-height: 26px;
           color: #fff;
-          background-color: #008ed6;
+          background-color: $btnColor;
           border-radius: 2px;
           padding: 0 6px;
           display: inline-block;
@@ -500,10 +500,9 @@ iframe{display:block}
               float: left;
               height: 28px;
               line-height: 28px;
-
+              margin-left: 10px;
               a {
-                color: #344562;
-                font-weight: bold;
+                color: $fontTitleColor;
               }
 
             }
@@ -530,7 +529,7 @@ iframe{display:block}
               .ibtn-download {
                 width: 54px;
                 border: 1px solid #ccc;
-                color: #008ed6;
+                color: $btnColor;
                 line-height: 26px;
                 float: right;
                 margin-left: 6px;
@@ -604,7 +603,7 @@ iframe{display:block}
   overflow: visible;
   line-height: 28px;
   vertical-align: top;
-  background:#008ed6;
+  background:$btnColor;
   width: 106px;
   text-align: center;
   .ibtn {
@@ -623,12 +622,26 @@ iframe{display:block}
     left: 0;
     top: 0;
     overflow: visible;
+    .save-history:hover{
+      a {
+        position: relative;
+        color: $btnColor;
+        margin-right: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        z-index: 300;
+      }
+      .save_to_pjc {
+        display: block;
+      }
+    }
   }
 
   .iconfont {
     display: inline;
     font-size: inherit;
     line-height: inherit;
+    vertical-align: top;
   }
 
  
@@ -638,27 +651,13 @@ iframe{display:block}
 .save_selection:hover {
   .save_selection_btns {
     display: block;
-    background-color: #008ed6;
+    background-color: $btnColor;
     border-radius: 2px;
   }
 
 }
 
 
-
-.save_selection .save_selection_btns #J_save_history:hover a {
-  position: relative;
-  background-color: white;
-  color: #008ed6;
-  margin-right: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  z-index: 300;
-}
-
-.save_selection .save_selection_btns #J_save_history:hover .save_to_pjc {
-  display: block;
-}
 
 .save-to-old-pjc{
   position: relative;
@@ -669,24 +668,22 @@ iframe{display:block}
     top: 28px;
     left: -1px;
     z-index: 201;
-    /*background-color: #008ed6;*/
     width: 250px;
     border:1px solid #dfdfdf;
     border-top: none;
     border-radius: 3px;
     border-top-left-radius: 0px;
-
     ul {
       background-color: #fff;
+      padding:5px 0;
       border-radius: 2px;
-      color: #008ed6;
-      min-height: 74px;
+      color: $btnColor;
       max-height: 300px;
       overflow-y: auto;
 
-      li {
+      .pjc-item {
         list-style: none;
-        line-height: 30px;
+        line-height: 25px;
         padding: 0 11px;
         border:0;
         border-radius: 0;
@@ -696,7 +693,7 @@ iframe{display:block}
         float: none;
         width: inherit;
         height: inherit;
-        color: #344562;
+        color: $fontTitleColor;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -706,8 +703,7 @@ iframe{display:block}
         }
         
       }
-
-      li:hover {
+      .pjc-item:hover {
         background-color: #f8f8f8;
         .J_arrow_down {
           visibility: visible;
@@ -718,27 +714,6 @@ iframe{display:block}
     }
 
   }
-
-
-.car_empty {
-  .car_info {
-    display: block;
-  }
-
-  .btn-download {
-    display: none;
-  }
-
-}
-
-.user-car .button-icon .delete-font-project,
-.button-icon:hover .delete-font-project {
-  display: none;
-  position: absolute;
-  left: -24px;
-  top: 1px;
-  color: #505050;
-}
 
 .yicon-nav-main {
   padding-top: 36px;
@@ -754,15 +729,15 @@ iframe{display:block}
   width: 1080px;
   margin: 40px auto 0;
   padding:30px 0;
-  border-top: 1px solid #9e9e9e;
-  color:#9e9e9e;
+  border-top: 1px solid $fontTipColor;
+  color:$fontTipColor;
   .yicon-footer-link{
     >li{
       display:inline;
       float: left;
       margin-right: 45px;
       a{
-        color:#9e9e9e;
+        color:$fontTipColor;
       }
     }
   }

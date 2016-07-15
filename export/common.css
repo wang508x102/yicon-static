@@ -2,8 +2,8 @@
   font-family: iconfont;
   font-style: normal;
   font-weight: normal;
-  src: url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.eot?v=1.0.6);
-  src: url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.eot?#iefix&#iefix&amp;v=1.0.6) format("embedded-opentype"), url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.woff?v=1.0.6) format("woff"), url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.ttf?v=1.0.6) format("truetype"), url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.svg?v=1.0.6#icomoonregular) format("svg");
+  src: url(./../font/QIconLab.eot?v=1.0.6);
+  src: url(./../font/QIconLab.eot?#iefix&#iefix&amp;v=1.0.6) format("embedded-opentype"), url(./../font/QIconLab.woff?v=1.0.6) format("woff"), url(./../font/QIconLab.ttf?v=1.0.6) format("truetype"), url(./../font/QIconLab.svg?v=1.0.6#icomoonregular) format("svg");
 }
 
 .iconfont {
@@ -291,6 +291,7 @@ iframe {
 .yicon-nav .yicon-nav-container .nav-menu-info .lists .upload {
   color: #929aac;
   line-height: 64px;
+  font-size: 14px;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .lists .user-dropdown {
@@ -305,11 +306,12 @@ iframe {
   display: none;
   top: 55px;
   left: 0;
+  padding: 5px 0;
   text-align: center;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .lists .user-dropdown li {
-  line-height: 30px;
+  line-height: 23px;
   padding: 0 10px;
 }
 
@@ -387,49 +389,6 @@ iframe {
   padding: 8px 0 0 12px;
 }
 
-.yicon-nav .yicon-nav-container .nav-menu-info .user-car li {
-  float: left;
-  text-align: center;
-  line-height: 54px;
-  color: #262533;
-  width: 54px;
-  height: 54px;
-  border: 1px solid red;
-  border-radius: 5px;
-}
-
-.yicon-nav .yicon-nav-container .nav-menu-info .user-car li .src_iconfont {
-  position: relative;
-  display: block;
-  color: #555f6e;
-  height: 54px;
-  line-height: 54px;
-}
-
-.yicon-nav .yicon-nav-container .nav-menu-info .user-car li .src_iconfont .delete {
-  font-size: 10px;
-  line-height: 12px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: none;
-  cursor: pointer;
-  color: #555f6e;
-  background-color: red;
-}
-
-.yicon-nav .yicon-nav-container .nav-menu-info .user-car li .src_iconfont:hover {
-  background-color: #eff0f4;
-}
-
-.yicon-nav .yicon-nav-container .nav-menu-info .user-car li .src_iconfont:hover .delete {
-  display: block;
-}
-
-.yicon-nav .yicon-nav-container .nav-menu-info .user-car .car_info {
-  text-align: center;
-}
-
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list {
   overflow-x: hidden;
   overflow-y: auto;
@@ -440,7 +399,39 @@ iframe {
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list li {
   float: left;
   text-align: center;
+  line-height: 54px;
+  color: #262533;
+  width: 54px;
+  height: 54px;
+  border-radius: 5px;
   margin: 4px 0 0 0;
+}
+
+.yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list li .src_iconfont {
+  position: relative;
+  display: block;
+  color: #555f6e;
+  height: 54px;
+  line-height: 54px;
+}
+
+.yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list li .src_iconfont .delete {
+  font-size: 10px;
+  line-height: 12px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+  cursor: pointer;
+  color: #555f6e;
+}
+
+.yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list li .src_iconfont:hover {
+  background-color: #eff0f4;
+}
+
+.yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list li .src_iconfont:hover .delete {
+  display: block;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car .fonts-selected-list .src_iconfont {
@@ -477,11 +468,24 @@ iframe {
   border: none;
 }
 
+.yicon-nav .yicon-nav-container .nav-menu-info .user-car .font-cdn .font-project-name .iconfont {
+  font-size: 14px;
+  color: #929aac;
+}
+
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car .font-cdn .button-icon {
   float: left;
   margin-left: 6px;
   padding: 0 16px;
   line-height: 28px;
+}
+
+.yicon-nav .yicon-nav-container .nav-menu-info .user-car .font-cdn .button-cancel {
+  border: 1px solid #ccc;
+  color: #008ed6;
+  line-height: 26px;
+  margin-left: 6px;
+  background-color: #fff;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car .font-cdn .font-project-icons {
@@ -575,11 +579,11 @@ iframe {
   float: left;
   height: 28px;
   line-height: 28px;
+  margin-left: 10px;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car-opt .save_ct .clear-car a {
   color: #344562;
-  font-weight: bold;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car-opt .save_ct .btn-download {
@@ -680,21 +684,8 @@ iframe {
   overflow: visible;
 }
 
-.save_selection .iconfont {
-  display: inline;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-.save_selection:hover .save_selection_btns {
-  display: block;
-  background-color: #008ed6;
-  border-radius: 2px;
-}
-
-.save_selection .save_selection_btns #J_save_history:hover a {
+.save_selection .save_selection_btns .save-history:hover a {
   position: relative;
-  background-color: white;
   color: #008ed6;
   margin-right: 0px;
   border-top-right-radius: 0px;
@@ -702,8 +693,21 @@ iframe {
   z-index: 300;
 }
 
-.save_selection .save_selection_btns #J_save_history:hover .save_to_pjc {
+.save_selection .save_selection_btns .save-history:hover .save_to_pjc {
   display: block;
+}
+
+.save_selection .iconfont {
+  display: inline;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: top;
+}
+
+.save_selection:hover .save_selection_btns {
+  display: block;
+  background-color: #008ed6;
+  border-radius: 2px;
 }
 
 .save-to-old-pjc {
@@ -725,16 +729,16 @@ iframe {
 
 .save_to_pjc ul {
   background-color: #fff;
+  padding: 5px 0;
   border-radius: 2px;
   color: #008ed6;
-  min-height: 74px;
   max-height: 300px;
   overflow-y: auto;
 }
 
-.save_to_pjc ul li {
+.save_to_pjc ul .pjc-item {
   list-style: none;
-  line-height: 30px;
+  line-height: 25px;
   padding: 0 11px;
   border: 0;
   border-radius: 0;
@@ -750,33 +754,16 @@ iframe {
   text-overflow: ellipsis;
 }
 
-.save_to_pjc ul li .J_arrow_down {
+.save_to_pjc ul .pjc-item .J_arrow_down {
   visibility: hidden;
 }
 
-.save_to_pjc ul li:hover {
+.save_to_pjc ul .pjc-item:hover {
   background-color: #f8f8f8;
 }
 
-.save_to_pjc ul li:hover .J_arrow_down {
+.save_to_pjc ul .pjc-item:hover .J_arrow_down {
   visibility: visible;
-}
-
-.car_empty .car_info {
-  display: block;
-}
-
-.car_empty .btn-download {
-  display: none;
-}
-
-.user-car .button-icon .delete-font-project,
-.button-icon:hover .delete-font-project {
-  display: none;
-  position: absolute;
-  left: -24px;
-  top: 1px;
-  color: #505050;
 }
 
 .yicon-nav-main {
