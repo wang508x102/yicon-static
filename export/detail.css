@@ -1,0 +1,244 @@
+.icon-detail-item {
+  width: 128px;
+  margin: 16px 7px 0;
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.icon-detail-item > .info {
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 72px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.icon-detail-item > .info .icon {
+  font-size: 64px;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.icon-detail-item > .info .icon .iconfont {
+  font-size: 64px;
+  vertical-align: top;
+}
+
+.icon-detail-item > .info .name {
+  color: #616161;
+  line-height: 16px;
+}
+
+.icon-detail-item > .info .code {
+  color: #616161;
+  line-height: 16px;
+}
+
+.icon-detail-item > .tool {
+  margin-top: 3px;
+  height: 30px;
+  position: relative;
+}
+
+.icon-detail-item > .tool .copytip {
+  position: absolute;
+  background-color: #fff8e5;
+  border: 1px solid #ffe8a6;
+  padding: 0 18px;
+  height: 34px;
+  line-height: 34px;
+  left: 0;
+  top: -50px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.icon-detail-item > .tool .copytip .iconfont {
+  font-size: 18px;
+}
+
+.icon-detail-item > .tool .tool-item {
+  margin: 0 1px;
+  display: none;
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 24px;
+  overflow: hidden;
+  background-color: #9e9e9e;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icon-detail-item > .tool .tool-item:hover {
+  background-color: #008ed6;
+}
+
+.icon-detail-item:hover .info .icon, .icon-detail-item.active .info .icon {
+  color: #008ed6;
+}
+
+.icon-detail-item:hover .tool .tool-item, .icon-detail-item.active .tool .tool-item {
+  display: block;
+}
+
+.options-btns {
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btns-default {
+  border: 1px solid #ccc;
+  color: #616161;
+  background-color: #fff;
+  padding: 0 25px;
+}
+
+.btns-blue {
+  color: #fff;
+  background-color: #008ed6;
+  padding: 0 16px;
+}
+
+.btns-blue .iconfont {
+  margin-right: 12px;
+  font-size: 23px;
+}
+
+.yicon-detail-info {
+  background-color: #fff;
+  border-bottom: 1px solid #dadcde;
+  box-shadow: 0 0 5px #dadcde;
+}
+
+.yicon-detail-info-container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.yicon-detail-info-container .title {
+  height: 40px;
+  overflow: hidden;
+  line-height: 50px;
+  margin: 0 10px;
+}
+
+.yicon-detail-info-container .title > h2 {
+  font-size: 30px;
+  color: #344562;
+  float: left;
+  line-height: 40px;
+}
+
+.yicon-detail-info-container .title .count {
+  font-size: 14px;
+  color: #616161;
+  padding-left: 10px;
+}
+
+.yicon-detail-info-container .title .count .num {
+  font-size: 24px;
+  padding: 0 6px;
+}
+
+.yicon-detail-info-container .title .powerby {
+  color: #9e9e9e;
+  padding-left: 14px;
+}
+
+.yicon-detail-info-container .title .name {
+  color: #9e9e9e;
+  padding-left: 8px;
+}
+
+.yicon-detail-info-container .options {
+  margin-top: 15px;
+}
+
+.yicon-detail-info-container .options .tools {
+  color: #fff;
+  overflow: hidden;
+  float: left;
+  display: inline-block;
+}
+
+.yicon-detail-info-container .options .tools .options-btns {
+  margin-right: 6px;
+  float: left;
+}
+
+.yicon-detail-info-container .options .tools .btns-blue:hover {
+  color: #fff;
+}
+
+.yicon-detail-info-container .options .tools .ml10 {
+  margin-left: 10px;
+}
+
+.yicon-detail-info-container .options .slider {
+  float: right;
+  margin-top: 12px;
+  position: relative;
+  margin-right: 53px;
+  height: 3px;
+  background-color: #cfcfcf;
+  width: 202px;
+  border-radius: 7px;
+  border: 7px solid #f1f3f6;
+}
+
+.yicon-detail-info-container .options .slider .slider-bar {
+  height: 3px;
+  background-color: #3bbaff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 2px;
+}
+
+.yicon-detail-info-container .options .slider .slider-knob {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  line-height: 0;
+  font-size: 0;
+  background-color: #008ed6;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  margin-top: -4px;
+  margin-left: -7px;
+}
+
+.yicon-detail-info-container .options .slider .cur-size {
+  position: absolute;
+  right: -50px;
+  top: -7px;
+  color: #616161;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.yicon-detail-main {
+  width: 1100px;
+  margin: 14px auto 0;
+}
+
+.yicon-detail-main .yicon-detail-list {
+  width: 1136px;
+  margin-left: -18px;
+}
+
+.user-car {
+  display: none;
+}

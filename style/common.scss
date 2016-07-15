@@ -1,239 +1,38 @@
 @charset "utf-8";
-$fontTitleColor: #344562;
-$fontContentColor: #616161;
-$fontTipColor: #9e9e9e;
-$mainColor: #3bbaff;
-$btnColor: #008ed6;
-$btnHoverColor: #00b7ee;
-$iconColor: #555f6e;
-
-
-@font-face {
-  font-family: iconfont;
-  font-style: normal;
-  font-weight: normal;
-  src: url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.eot?v=1.0.6);
-  src: url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.eot?#iefix&#iefix&amp;v=1.0.6) format('embedded-opentype'), url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.woff?v=1.0.6) format('woff'), url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.ttf?v=1.0.6) format('truetype'), url(http://simg1.qunarzz.com/fonts/mice/1.0.6/micefont.svg?v=1.0.6#icomoonregular) format('svg')
-}
-
-.iconfont {
-  font-family: iconfont !important;
-  font-size: 14px;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  vertical-align: middle;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  visibility: hidden;
-  clear: both;
-}
-
-.clearfix {
-  *zoom: 1;
-}
-
-html {
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased
-}
-
-body {
-  font-size: 14px;
-}
-
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-textarea,
-p,
-blockquote,
-th,
-td,
-hr,
-button,
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  margin: 0;
-  padding: 0
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: 500
-}
-
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-th,
-var {
-  font-style: normal;
-  font-weight: 500
-}
-
-ol,
-ul {
-  list-style: none
-}
-
-ins,
-a {
-  text-decoration: none
-}
-
-a {
-  color: $fontTitleColor;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $mainColor;
-  text-decoration: none;
-}
-
-fieldset,
-img {
-  border: 0
-}
-
-html {
-  background: #f1f3f6
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block
-}
-
-audio,
-canvas,
-video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1
-}
-
-body,
-button,
-input,
-select,
-textarea {
-  font: 12px/1.5 tahoma, "microsoft yahei", "\5FAE\8F6F\96C5\9ED1"
-}
-
-button,
-input,
-select,
-textarea {
-  font-size: 100%
-}
-
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button
-}
-
-q:before,
-q:after {
-  content: ''
-}
-
-del {
-  text-decoration: line-through
-}
-
-mark {
-  background: #ff0
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline
-}
-
-sup {
-  top: -0.5em
-}
-
-sub {
-  bottom: -0.25em
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0
-}
-
-th {
-  text-align: inherit
-}
-
-iframe {
-  display: block
-}
-
-.ml-15 {
-  margin-left: 15px;
-}
-
-.yicon-container {
-
-  /*overflow: hidden;*/
-}
+$fontTitleColor:#344562;$fontContentColor:#616161;$fontTipColor:#9e9e9e;$mainColor:#3bbaff;$btnColor:#008ed6;$btnHoverColor:#00b7ee;$iconColor:#555f6e;
+@font-face{font-family:iconfont;font-style:normal;font-weight:normal;src:url(./../font/QIconLab.eot?v=1.0.6);src:url(./../font/QIconLab.eot?#iefix&#iefix&amp;v=1.0.6) format('embedded-opentype'),url(./../font/QIconLab.woff?v=1.0.6) format('woff'),url(./../font/QIconLab.ttf?v=1.0.6) format('truetype'),url(./../font/QIconLab.svg?v=1.0.6#icomoonregular) format('svg')}
+.iconfont{font-family:iconfont!important;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;vertical-align:middle;}
+.clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
+.clearfix{*zoom:1;}
+html{font-family:'Roboto',sans-serif;-webkit-font-smoothing:antialiased}
+body{font-size:14px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}
+ol,ul{list-style:none}
+ins,a{text-decoration:none}
+a{color:$fontTitleColor;text-decoration:none;}
+a:hover{color:$mainColor;text-decoration:none;}
+fieldset,img{border:0}
+html{background:#f1f3f6}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+body,button,input,select,textarea{font:12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1"}
+button,input,select,textarea{font-size:100%}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button}
+q:before,q:after{content:''}
+del{text-decoration:line-through}
+mark{background:#ff0}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+table{border-collapse:collapse;border-spacing:0}
+th{text-align:inherit}
+iframe{display:block}
+.ml-15{margin-left:15px;}
+/* common css */
+/* 主容器 */
+.yicon-container {}
 
 /* header begin */
 .yicon-nav {
@@ -241,6 +40,7 @@ iframe {
   height: 64px;
   z-index: 99;
   background: #000c15 url(./../images/yicon-header-bg.jpg) center bottom no-repeat;
+
   .yicon-nav-container {
     width: 1100px;
     margin: 0 auto;
@@ -251,17 +51,19 @@ iframe {
       cursor: pointer;
       color: #fff;
       float: left;
-      width: 205px;
+      width: 180px;
+      margin-left: 10px;
       height: 64px;
       line-height: 64px;
-      position: absolute;
       text-align: center;
 
       .small-img {
+        background: url(./../images/qiconbg.png) 0 0 no-repeat;
         display: inline-block;
-        margin-left: 5px;
-        position: relative;
-        top: -3px;
+        float: left;
+        width: 140px;
+        height: 32px;
+        margin: 15px 0 0;
       }
 
       p {
@@ -269,7 +71,6 @@ iframe {
       }
 
       i {
-        position: relative;
         top: 1px;
       }
 
@@ -283,19 +84,13 @@ iframe {
       position: absolute;
       right: 0;
       top: 0;
-      line-height: 64px;
-      .lists{
-        >a {
-          color: #929aac;
-        }
-      }
 
-
+      /*line-height: 64px;*/
       .lists {
         float: left;
         margin-right: 20px;
         position: relative;
-
+        z-index: 20;
         .name_arrow {
           width: 0;
           height: 0;
@@ -320,6 +115,37 @@ iframe {
 
     }
 
+    .quick-menu-sub {
+      background-color: #000c15;
+      width: 140px;
+      font-size: 14px;
+      position: absolute;
+      left: -5px;
+      top: 64px;
+      padding:10px 0;
+      border-radius:0 0 3px 3px;
+      overflow: hidden;
+      display: block;
+      li {
+        padding: 0 20px;
+        line-height: 36px;
+      }
+
+      li:hover {
+        a {
+          color: $mainColor;
+        }
+
+      }
+
+      .current {
+        a {
+          color: $mainColor;
+        }
+      }
+
+    }
+
     .head-nav {
       left: 195px;
       font-size: 16px;
@@ -330,8 +156,8 @@ iframe {
         height: 62px;
         line-height: 62px;
         float: left;
-        margin: 0px 10px;
-        padding: 0 16px;
+        margin: 0px 15px;
+        padding: 0 14px;
         position: relative;
 
         a {
@@ -343,7 +169,7 @@ iframe {
       .lists:hover {
         border-bottom: 3px solid $mainColor;
 
-        a {
+        >a {
           color: $mainColor;
         }
 
@@ -362,503 +188,407 @@ iframe {
 
     }
 
-  }
-
-}
-
-.yicon-nav-main {
-  padding-top: 36px;
-}
-
-.search-panel {
-  width: 200px;
-  height: 34px;
-  overflow: hidden;
-  margin-top: 10px;
-
-  .search-panel-fields {
-    background-color: #fff;
-    border-radius: 3px;
-    height: 34px;
-    position: relative;
-    padding: 0 6px 0 26px;
-
-    .search-q {
-      height: 35px;
-      color: #9f9fb1;
-      border: 0;
-      outline: none;
-      display: block;
-      font-family: "Microsoft YaHei";
-      width: 100%;
-    }
-
-  }
-
-  .search-icon {
-    font-size: 14px;
-    display: inline-block;
-    position: absolute;
-    left: 7px;
-    top: 0px;
-  }
-
-  .placeholder label {
-    text-indent: 60px;
-    font-size: 16px;
-    font-family: "Microsoft YaHei";
-    *left: 0;
-  }
-
-}
-
-.login-box {
-  width: 280px;
-  border: 4px solid #272634;
-  position: fixed;
-  right: 271px;
-  top: -179px;
-  border-top: none;
-  background-color: #fff;
-  z-index: 20;
-  height: 175px;
-
-  .login-methods {
-    font-size: 18px;
-    padding: 18px 23px;
-    padding-top: 0;
-
-    li {
-      float: left;
-      display: inline-block;
-      width: 70px;
-      margin-right: 10px;
-      font-size: 12px;
-      text-align: center;
-    }
-
-    .avatar {
-      display: inline-block;
-      position: relative;
-      height: 79px;
-    }
-
-    .avatar:hover {
-      .login-icon {
-        top: -54px;
+    .nav-menu-info {
+      .iconfont {
+        font-size: 22px;
       }
 
-    }
-
-    .login_type {
-      width: 50px;
-      display: inline-block;
-    }
-
-    .login-icons {
-      position: absolute;
-      left: 0;
-      top: 10px;
-      vertical-align: middle;
-      width: 54px;
-      height: 50px;
-      overflow: hidden;
-    }
-
-    .login-icon {
-      position: absolute;
-      left: 0;
-      top: 0;
-      height: 120px;
-      width: 54px;
-      -webkit-transition: top 0.3s ease-out;
-      -moz-transition: top 0.3s ease-out;
-      -ms-transition: top 0.3s ease-out;
-      -o-transition: top 0.3s ease-out;
-      transition: top 0.3s ease-out;
-    }
-
-    .iconfont {
-      font-size: 40px;
-      display: block;
-      height: 45px;
-      width: 54px;
-      text-align: center;
-      line-height: 40px;
-      padding-top: 7px;
-      color: #000;
-    }
-
-  }
-
-}
-
-.login-methods .iconfont-tao,
-.login-methods .iconfont-weibo,
-.login-methods .iconfont-domain {
-  color: #ff4900;
-}
-
-.login-box .login-methods .last {
-  margin-right: 0;
-}
-
-.quick-menu-sub {
-  background-color: #262635;
-  width: 125px;
-  position: absolute;
-  left: 0px;
-  top: 63px;
-  padding: 5px 0 10px;
-  z-index: 2;
-  border-radius: 3px;
-  overflow: hidden;
-  display: none;
-
-  li {
-    padding: 0 15px;
-    line-height: 30px;
-
-    a {
-      color: #757393;
-      font-size: 12px;
-    }
-
-  }
-
-  li:hover {
-    background-color: #323242;
-
-    a {
-      color: #fff;
-    }
-
-  }
-
-  .current {
-    a {
-      color: #fff;
-    }
-
-  }
-
-}
-
-/*  登录 */
-.nologin {
-  display: none;
-}
-
-.nav-message {
-  position: relative;
-
-  .nav-message-count {
-    position: absolute;
-    top: -10px;
-    right: -20px;
-    font-size: 11px;
-    height: 12px;
-    line-height: 12px;
-    background-color: #ff5555;
-    padding: 0 3px;
-    color: #001c4c;
-    font-style: normal;
-    border-radius: 3px;
-  }
-
-}
-
-.user-dropdown {
-  position: relative;
-  width: 90px;
-  background-color: #fff;
-  position: absolute;
-  border: 1px solid #c9d0d5;
-  border-shadow: 5px;
-  border-top: none;
-  z-index: 9;
-  display: none;
-  top: 64px;
-  left: 0; /* padding: 10px 0;*/
-  text-align: center;
-
-  li {
-    line-height: 30px;
-    padding: 0 10px;
-  }
-
-  li:hover {
-    background-color: #eff0f4;
-  }
-
-  li a {
-    color: #344562;
-  }
-
-  li:hover a {
-    color: #344562;
-  }
-
-  .arrow {
-    width: 0;
-    height: 0;
-    border: 6px solid;
-    border-color: transparent transparent #fff transparent;
-    border-style: dashed dashed solid dashed;
-    position: absolute;
-    top: -12px;
-    left: 40px;
-  }
-
-}
-
-.user-car {
-  width: 400px;
-  position: absolute;
-  border: 1px solid #ccc;
-  border-top: none;
-  left: -111px;
-  top: 55px;
-  background-color: #fff;
-
-  .arrow {
-    width: 0;
-    height: 0;
-    border: 6px solid;
-    border-color: transparent transparent #fff transparent;
-    border-style: dashed dashed solid dashed;
-    position: absolute;
-    top: -12px;
-    left: 34px;
-  }
-
-  .car_bd {
-    padding: 8px 0 0 12px;
-  }
-
-  li {
-    float: left;
-    text-align: center;
-    line-height: 54px;
-    color: #262533;
-    width: 54px;
-    height: 54px;
-    border: 1px solid red;
-    border-radius: 5px;
-
-    .src_iconfont {
-      position: relative;
-      display: block;
-      color: #555f6e;
-      height: 54px;
-      line-height: 54px;
-
-      .delete {
-        font-size: 10px;
-        line-height: 12px;
-        position: absolute;
-        right: 0;
-        top: 0;
-        display: none;
-        cursor: pointer;
-        color: #555f6e;
-        background-color: red;
-      }
-
-    }
-
-    .src_iconfont:hover {
-      background-color: #eff0f4;
-
-      .delete {
-        display: block;
-      }
-
-    }
-
-  }
-
-  .car_info {
-    text-align: center;   /* display: none;*/
-  }
-
-  .fonts-selected-list {
-    overflow-x: hidden;
-    overflow-y: auto;
-    max-height: 185px;
-    padding: 10px 0 0;
-
-    li {
-      float: left;
-      text-align: center;
-      margin: 4px 0 0 0;
-    }
-
-    .src_iconfont {
-      display: block;
-      font-size: 26px;
-      position: relative;
-      margin: 0 auto;
-      color: #555f6e;
-    }
-
-    .code {
-      font-size: 9px;
-    }
-
-  }
-
-  .font-cdn {
-    line-height: 28px;
-    .font-project-name {
-      width:250px;
-      height: 28px;
-      line-height: 28px;
-      float: left;
-      border:1px solid #dfdfdf;
-      background-color: #fff;
-      position: relative;
-      input{
-        width:230px;
-        float: left;
-        line-height: 26px;
-        text-indent: 10px;
-        border:none;
-      }
-    }
-    .button-icon{
-      float:left;
-      margin-left: 6px;
-      padding: 0 16px;
-      line-height: 28px;
-    }
-    .font-project-icons {
-      color: #ccc;
-      overflow-x: hidden;
-      overflow-y: auto;
-      max-height: 200px;
-    }
-
-    .font-project-more {
-      position: relative;
-    }
-
-    .dot-down {
-      display: none;
-    }
-
-    .font-porject-lists {
-      display: none;
-      position: absolute;
-      max-height: 180px;
-      right: -1px;
-      top: 25px;
-      color: #505050;
-      width: 223px;
-      border: 1px solid #d9d9d9;
-      border: 1px solid rgba(0, 0, 0, 0.15);
-      background-color: #fff;
-      overflow-y: scroll;
-      padding: 2px 0;
-      overflow-x: hidden;
-
-      li {
-        overflow: hidden;
-        padding: 2px 10px;
-        width: 184px;
-        height: 26px;
-        text-align: left;
-        cursor: pointer;
-      }
-
-      li:hover {
-        background: #ccc;
-      }
-
-    }
-
-    .font-project-more-down {
-      border: 1px solid #d9d9d9;
-      border: 1px solid rgba(0, 0, 0, 0.15);
-      background-color: #fff;
-      width: 19px;
-      height: 31px;
-      vertical-align: bottom;
-      top: -9px;
-    }
-
-  }
-
-  .readonly {
-    color: #ccc;
-  }
-
-  .button-icon {
-    line-height: 26px;
-    color: #fff;
-    background-color: #008ed6;
-    border-radius: 2px;
-    padding: 0 6px;
-    display: inline-block;
-    cursor: pointer;
-
-    .iconfont {
-      color: #fff;
-      display: inline-block;
-      line-height: 24px;
-    }
-
-  }
-
-  .font-project-icons {
-    color: #ccc;
-    overflow-x: hidden;
-    overflow-y: auto;
-    max-height: 200px;
-  }
-
-  &-opt {
-    background: #f5f6f9;
-    padding:12px 11px;
-    line-height: auto;
-    .save_ct {
-      .clear-car {
-        float: left;
-        height: 28px;
-        line-height: 28px;
-        a{
-          color: #344562;
-          font-weight: bold;
+      .lists {
+        .avatar,
+        .nologin,
+        .nav-message,
+        .nav-car,
+        .upload {
+          color: #929aac;
+          line-height: 64px;
+          font-size: 14px;
         }
-      }
-      .btn-download {
-        float: right;
-        height: 28px;
-        .ibtn{
-          width: 106px;
-          display: block;
-          color:#fff;
-          height: 28px;
-          line-height: 28px;
-          text-decoration: none;
+
+        /* 权限管理下拉 */
+        .user-dropdown {
+          position: relative;
+          width: 90px;
+          background-color: #fff;
+          position: absolute;
+          border: 1px solid #c9d0d5;
+          border-top: none;
+          z-index: 9;
+          display: none;
+          top: 55px;
+          left: 0;
+          padding: 5px 0;
           text-align: center;
-          vertical-align: top;
+          box-shadow:0 0 5px #e2e4e7;
+          li {
+            line-height:23px;
+            padding: 0 10px;
+          }
+
+          li:hover {
+            background-color: #eff0f4;
+          }
+
+          li a {
+            color: $fontTitleColor;
+          }
+
+          li:hover a {
+            color: $fontTitleColor;
+          }
+
+          .arrow {
+            width: 0;
+            height: 0;
+            border: 6px solid;
+            border-color: transparent transparent #fff transparent;
+            border-style: dashed dashed solid dashed;
+            position: absolute;
+            top: -12px;
+            left: 40px;
+          }
+
+        }
+
+      }
+
+      /*  登录 */
+      .nologin {
+        display: none;
+      }
+
+      .nav-message {
+        position: relative;
+
+        .nav-message-count {
+          position: absolute;
+          top: -10px;
+          left: 24px;
+          font-size: 11px;
+          height: 12px;
+          line-height: 12px;
+          background-color: #ff5555;
+          padding: 0 3px;
+          color: #001c4c;
+          font-style: normal;
           border-radius: 3px;
         }
-        .ibtn:hover{
+
+      }
+
+      .nav-car{
+        .nav-car-count{
+          font-size:14px;
+        }
+      }
+      /* car 浮层*/
+      .user-car {
+        width: 400px;
+        position: absolute;
+        border: 1px solid #e2e4e7;
+        box-shadow:0 0 5px #e2e4e7;
+        border-top: none;
+        left: -30px;
+        top: 55px;
+        background-color: #fff;
+
+        .arrow {
+          width: 0;
+          height: 0;
+          border: 6px solid;
+          border-color: transparent transparent #fff transparent;
+          border-style: dashed dashed solid dashed;
+          position: absolute;
+          top: -12px;
+          left: 34px;
+        }
+
+        .car_bd {
+          padding: 8px 0 0 12px;
+        }
+
+
+
+        .fonts-selected-list {
+          overflow-x: hidden;
+          overflow-y: auto;
+          max-height: 185px;
+          padding: 10px 0 0;
+         li {
+                  float: left;
+                  text-align: center;
+                  line-height: 54px;
+                  color: #262533;
+                  width: 54px;
+                  height: 54px;
+                  /*border: 1px solid red;*/
+                  border-radius: 5px;
+                  margin: 4px 0 0 0;
+                  .src_iconfont {
+                    position: relative;
+                    display: block;
+                    color: $iconColor;
+                    height: 54px;
+                    line-height: 54px;
+
+                    .delete {
+                      font-size: 10px;
+                      line-height: 12px;
+                      position: absolute;
+                      right: 0;
+                      top: 0;
+                      display: none;
+                      cursor: pointer;
+                      color: $iconColor;
+                  /*    background-color: red;*/
+                    }
+
+                  }
+
+                  .src_iconfont:hover {
+                    background-color: #eff0f4;
+
+                    .delete {
+                      display: block;
+                    }
+
+                  }
+
+                }
+          .src_iconfont {
+            display: block;
+            font-size: 26px;
+            position: relative;
+            margin: 0 auto;
+            color: $iconColor;
+          }
+
+          .code {
+            font-size: 9px;
+          }
 
         }
-        .ibtn-download{
-          width: 54px;
-          border:1px solid #ccc;
-          color:#008ed6;
+
+        .font-cdn {
+          line-height: 28px;
+
+          .font-project-name {
+            width: 250px;
+            height: 28px;
+            line-height: 28px;
+            float: left;
+            border: 1px solid #dfdfdf;
+            background-color: #fff;
+            position: relative;
+            input {
+              width: 230px;
+              float: left;
+              line-height: 26px;
+              text-indent: 10px;
+              border: none;
+            }
+            .iconfont{
+              font-size: 14px;
+              color:#929aac;
+            }
+          }
+
+          .button-icon {
+            float: left;
+            margin-left: 6px;
+            padding: 0 16px;
+            line-height: 28px;
+          }
+          .button-cancel{
+            border: 1px solid #ccc;
+            color: $btnColor;
+            line-height: 26px;
+            margin-left: 6px;
+            background-color: #fff;
+          }
+          .font-project-icons {
+            color: #ccc;
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-height: 200px;
+          }
+
+          .font-project-more {
+            position: relative;
+          }
+
+          .dot-down {
+            display: none;
+          }
+
+          .font-porject-lists {
+            display: none;
+            position: absolute;
+            max-height: 180px;
+            right: -1px;
+            top: 25px;
+            color: #505050;
+            width: 223px;
+            border: 1px solid #d9d9d9;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            background-color: #fff;
+            overflow-y: scroll;
+            padding: 2px 0;
+            overflow-x: hidden;
+
+            li {
+              overflow: hidden;
+              padding: 2px 10px;
+              width: 184px;
+              height: 26px;
+              text-align: left;
+              cursor: pointer;
+            }
+
+            li:hover {
+              background: #ccc;
+            }
+
+          }
+
+          .font-project-more-down {
+            border: 1px solid #d9d9d9;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            background-color: #fff;
+            width: 19px;
+            height: 31px;
+            vertical-align: bottom;
+            top: -9px;
+          }
+
+        }
+
+        .readonly {
+          color: #ccc;
+        }
+
+        .button-icon {
           line-height: 26px;
-          float: right;
-          margin-left: 6px;
-          background-color: #fff;
+          color: #fff;
+          background-color: $btnColor;
+          border-radius: 2px;
+          padding: 0 6px;
+          display: inline-block;
+          cursor: pointer;
+
+          .iconfont {
+            color: #fff;
+            display: inline-block;
+            line-height: 24px;
+          }
+
+        }
+
+        .font-project-icons {
+          color: #ccc;
+          overflow-x: hidden;
+          overflow-y: auto;
+          max-height: 200px;
+        }
+
+        &-opt {
+          background: #f5f6f9;
+          padding: 12px 11px;
+          line-height: auto;
+
+          .save_ct {
+            .clear-car {
+              float: left;
+              height: 28px;
+              line-height: 28px;
+              margin-left: 10px;
+              a {
+                color: $fontTitleColor;
+              }
+
+            }
+
+            .btn-download {
+              float: right;
+              height: 28px;
+
+              .ibtn {
+                width: 106px;
+                display: block;
+                color: #fff;
+                height: 28px;
+                line-height: 28px;
+                text-decoration: none;
+                text-align: center;
+                vertical-align: top;
+                border-radius: 3px;
+              }
+
+              .ibtn:hover {
+              }
+
+              .ibtn-download {
+                width: 54px;
+                border: 1px solid #ccc;
+                color: $btnColor;
+                line-height: 26px;
+                float: right;
+                margin-left: 6px;
+                background-color: #fff;
+              }
+
+            }
+
+          }
+
         }
 
       }
+
+      .search-panel {
+        width: 220px;
+        height: 34px;
+        overflow: hidden;
+        margin-top: 10px;
+
+        .search-panel-fields {
+          background-color: #fff;
+          border-radius: 19px;
+          height: 34px;
+          position: relative;
+          padding: 0 6px 0 26px;
+
+          .search-q {
+            height: 35px;
+            color: #9f9fb1;
+            border: 0;
+            outline: none;
+            display: block;
+            font-family: "Microsoft YaHei";
+            width: 180px;
+            text-indent: 8px;
+          }
+
+        }
+
+
+        .search-icon {
+          font-size:20px;
+          display: inline-block;
+          position: absolute;
+          left: 7px;
+          top: 12px;
+          color:#000;
+        }
+
+        .placeholder label {
+          text-indent: 60px;
+          font-size: 16px;
+          font-family: "Microsoft YaHei";
+          *left: 0;
+        }
+
+      }
+
 
     }
 
@@ -866,8 +596,7 @@ iframe {
 
 }
 
-/* 存储为项目*/
-
+/* 从这里开始 明天重新重构一下*/
 /* 悬浮下拉 */
 .save_selection {
   position: relative;
@@ -875,7 +604,7 @@ iframe {
   overflow: visible;
   line-height: 28px;
   vertical-align: top;
-  background:#008ed6;
+  background:$btnColor;
   width: 106px;
   text-align: center;
   .ibtn {
@@ -894,12 +623,27 @@ iframe {
     left: 0;
     top: 0;
     overflow: visible;
+    .save-history:hover{
+      a {
+        position: relative;
+        color: $btnColor;
+        margin-right: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        z-index: 300;
+      }
+      .save_to_pjc {
+        display: block;
+
+      }
+    }
   }
 
   .iconfont {
     display: inline;
     font-size: inherit;
     line-height: inherit;
+    vertical-align: top;
   }
 
 
@@ -909,25 +653,13 @@ iframe {
 .save_selection:hover {
   .save_selection_btns {
     display: block;
-    background-color: #008ed6;
+    background-color: $btnColor;
     border-radius: 2px;
   }
 
 }
 
-.save_selection .save_selection_btns #J_save_history:hover a {
-  position: relative;
-  background-color: white;
-  color: #008ed6;
-  margin-right: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  z-index: 300;
-}
 
-.save_selection .save_selection_btns #J_save_history:hover .save_to_pjc {
-  display: block;
-}
 
 .save-to-old-pjc{
   position: relative;
@@ -938,24 +670,22 @@ iframe {
     top: 28px;
     left: -1px;
     z-index: 201;
-    /*background-color: #008ed6;*/
     width: 250px;
     border:1px solid #dfdfdf;
     border-top: none;
     border-radius: 3px;
     border-top-left-radius: 0px;
-
+    box-shadow:0 0 5px #dfdfdf;
     ul {
       background-color: #fff;
-      border-radius: 2px;
-      color: #008ed6;
-      min-height: 74px;
+      padding:5px 0;
+      color: $btnColor;
       max-height: 300px;
       overflow-y: auto;
 
-      li {
+      .pjc-item {
         list-style: none;
-        line-height: 30px;
+        line-height: 25px;
         padding: 0 11px;
         border:0;
         border-radius: 0;
@@ -965,7 +695,7 @@ iframe {
         float: none;
         width: inherit;
         height: inherit;
-        color: #344562;
+        color: $fontTitleColor;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -975,8 +705,7 @@ iframe {
         }
 
       }
-
-      li:hover {
+      .pjc-item:hover {
         background-color: #f8f8f8;
         .J_arrow_down {
           visibility: visible;
@@ -988,26 +717,11 @@ iframe {
 
   }
 
-
-.car_empty {
-  .car_info {
-    display: block;
-  }
-
-  .btn-download {
-    display: none;
-  }
-
+.yicon-nav-main {
+  padding-top: 36px;
 }
 
-.user-car .button-icon .delete-font-project,
-.button-icon:hover .delete-font-project {
-  display: none;
-  position: absolute;
-  left: -24px;
-  top: 1px;
-  color: #505050;
-}
+
 
 /* head css end*/
 
@@ -1017,15 +731,17 @@ iframe {
   width: 1080px;
   margin: 40px auto 0;
   padding:30px 0;
-  border-top: 1px solid #9e9e9e;
-  color:#9e9e9e;
+  border-top: 1px solid $fontTipColor;
+  color:$fontTipColor;
   .yicon-footer-link{
     >li{
       display:inline;
       float: left;
       margin-right: 45px;
+
+
       a{
-        color:#9e9e9e;
+        color:$fontTipColor;
       }
     }
   }
@@ -1039,4 +755,5 @@ iframe {
 /*   footer end */
 
 
-.yicon-main{margin-top: 10px;}
+
+.yicon-main{}

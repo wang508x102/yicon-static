@@ -1,0 +1,23 @@
+.options-btns{
+	height: 36px;
+    line-height: 36px;
+    font-size: 14px; 
+    display: inline-block;
+    border-radius: 5px;
+}
+.btns-default{
+    border: 1px solid #ccc;
+    color: #616161;
+    background-color: #fff;
+    padding:0 25px;
+   
+}
+.btns-blue{
+	color: #fff;
+	background-color: #008ed6;
+    padding:0 16px;
+    .iconfont{
+    	margin-right: 12px;
+    	font-size: 23px;
+    }
+}
