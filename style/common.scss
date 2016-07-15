@@ -216,7 +216,7 @@ iframe{display:block}
           z-index: 9;
           display: none;
           top: 55px;
-          left: 0;  
+          left: 0;
           padding: 5px 0;
           text-align: center;
           box-shadow:0 0 5px #e2e4e7;
@@ -275,7 +275,7 @@ iframe{display:block}
         }
 
       }
-    
+
       .nav-car{
         .nav-car-count{
           font-size:14px;
@@ -308,7 +308,7 @@ iframe{display:block}
           padding: 8px 0 0 12px;
         }
 
-       
+
 
         .fonts-selected-list {
           overflow-x: hidden;
@@ -543,7 +543,7 @@ iframe{display:block}
           }
 
         }
-        
+
       }
 
       .search-panel {
@@ -572,6 +572,7 @@ iframe{display:block}
 
         }
 
+
         .search-icon {
           font-size:20px;
           line-height: 20px;
@@ -590,7 +591,7 @@ iframe{display:block}
         }
 
       }
-      
+
 
     }
 
@@ -648,10 +649,10 @@ iframe{display:block}
     vertical-align: top;
   }
 
- 
+
 
 }
- 
+
 .save_selection:hover {
   .save_selection_btns {
     display: block;
@@ -705,7 +706,7 @@ iframe{display:block}
         .J_arrow_down {
           visibility: hidden;
         }
-        
+
       }
       .pjc-item:hover {
         background-color: #f8f8f8;
@@ -740,6 +741,8 @@ iframe{display:block}
       display:inline;
       float: left;
       margin-right: 45px;
+
+
       a{
         color:$fontTipColor;
       }
@@ -753,6 +756,7 @@ iframe{display:block}
 
 
 /*   footer end */
+
 
 
 .yicon-main{}
