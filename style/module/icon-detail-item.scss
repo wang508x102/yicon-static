@@ -5,17 +5,18 @@
 	float: left;
 	text-align: center;
 	>.info{
-		border: 1px solid #ccc;
+		border: 1px solid #f1f3f6;
 		padding:12px;
 		width: 72px;
 		margin: 0 auto;
-		background-color: #fff;
+		/*background-color: #fff;*/
 		.icon {
 			font-size: 64px;
 			width: 72px;
 			height: 72px;
 			line-height: 72px;
 			text-align: center;
+			color:#555f6e;
 			.iconfont {
 				font-size: 64px;
 				vertical-align: top;
@@ -50,9 +51,9 @@
 			}
 		}
 		.tool-item{
-			margin:0 1px;
+			/*margin:0 1px;*/
 			display: none;
-			float: left;
+			/*float: left;*/
 			width: 30px;
 			height: 30px; 
 			text-align: center;
@@ -70,16 +71,20 @@
 	}
 
 }
-
-.icon-detail-item:hover,.icon-detail-item.active{
-	.info{
-		.icon{
-			color:#008ed6;
-		}
-	}
+.icon-detail-item:hover{
 	.tool{
 		.tool-item{
-			display: block;
+			display: inline-block;
+			margin-left: -3px;
+		}
+	}
+}
+.icon-detail-item:hover,.icon-detail-item.active{
+	.info{
+		border: 1px solid #ccc;
+		background-color: #fff;
+		.icon{
+			color:#008ed6;
 		}
 	}
 }

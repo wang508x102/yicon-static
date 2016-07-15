@@ -7,11 +7,10 @@
 }
 
 .icon-detail-item > .info {
-  border: 1px solid #ccc;
+  border: 1px solid #f1f3f6;
   padding: 12px;
   width: 72px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 .icon-detail-item > .info .icon {
@@ -20,6 +19,7 @@
   height: 72px;
   line-height: 72px;
   text-align: center;
+  color: #555f6e;
 }
 
 .icon-detail-item > .info .icon .iconfont {
@@ -61,9 +61,7 @@
 }
 
 .icon-detail-item > .tool .tool-item {
-  margin: 0 1px;
   display: none;
-  float: left;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -80,12 +78,18 @@
   background-color: #008ed6;
 }
 
-.icon-detail-item:hover .info .icon, .icon-detail-item.active .info .icon {
-  color: #008ed6;
+.icon-detail-item:hover .tool .tool-item {
+  display: inline-block;
+  margin-left: -3px;
 }
 
-.icon-detail-item:hover .tool .tool-item, .icon-detail-item.active .tool .tool-item {
-  display: block;
+.icon-detail-item:hover .info, .icon-detail-item.active .info {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.icon-detail-item:hover .info .icon, .icon-detail-item.active .info .icon {
+  color: #008ed6;
 }
 
 .options-btns {

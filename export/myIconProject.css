@@ -7,11 +7,10 @@
 }
 
 .icon-detail-item > .info {
-  border: 1px solid #ccc;
+  border: 1px solid #f1f3f6;
   padding: 12px;
   width: 72px;
   margin: 0 auto;
-  background-color: #fff;
 }
 
 .icon-detail-item > .info .icon {
@@ -20,6 +19,7 @@
   height: 72px;
   line-height: 72px;
   text-align: center;
+  color: #555f6e;
 }
 
 .icon-detail-item > .info .icon .iconfont {
@@ -61,9 +61,7 @@
 }
 
 .icon-detail-item > .tool .tool-item {
-  margin: 0 1px;
   display: none;
-  float: left;
   width: 30px;
   height: 30px;
   text-align: center;
@@ -80,12 +78,18 @@
   background-color: #008ed6;
 }
 
-.icon-detail-item:hover .info .icon, .icon-detail-item.active .info .icon {
-  color: #008ed6;
+.icon-detail-item:hover .tool .tool-item {
+  display: inline-block;
+  margin-left: -3px;
 }
 
-.icon-detail-item:hover .tool .tool-item, .icon-detail-item.active .tool .tool-item {
-  display: block;
+.icon-detail-item:hover .info, .icon-detail-item.active .info {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.icon-detail-item:hover .info .icon, .icon-detail-item.active .info .icon {
+  color: #008ed6;
 }
 
 .options-btns {
@@ -187,12 +191,108 @@
   margin-top: 0;
 }
 
-.yicon-myicon-main {
-  width: 1100px;
-  margin: 14px auto 0;
+.yicon-myicon .panel {
+  background: #f9fafe;
+  overflow: hidden;
 }
 
-.yicon-myicon-main .yicon-myicon-list {
-  width: 1136px;
-  margin-left: -18px;
+.yicon-myicon-main {
+  width: 1080px;
+  margin: 20px auto 0;
+}
+
+.yicon-myicon-main .myicon-prj-left {
+  width: 216px;
+  overflow-X: hidden;
+  overflow-Y: auto;
+  min-height: 620px;
+  max-height: 620px;
+  padding: 10px 0;
+  float: left;
+}
+
+.yicon-myicon-main .myicon-prj-left li {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  padding: 0 0 0 34px;
+}
+
+.yicon-myicon-main .myicon-prj-left li:hover, .yicon-myicon-main .myicon-prj-left li.selected {
+  background-color: #657289;
+}
+
+.yicon-myicon-main .myicon-prj-left li:hover a, .yicon-myicon-main .myicon-prj-left li:hover a:hover, .yicon-myicon-main .myicon-prj-left li.selected a, .yicon-myicon-main .myicon-prj-left li.selected a:hover {
+  color: #fff;
+}
+
+.yicon-myicon-main .myicon-prj-right {
+  width: 864px;
+  float: right;
+  background: #fff;
+  min-height: 640px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info {
+  padding: 20px 40px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details {
+  overflow: hidden;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title {
+  float: left;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title > h3 {
+  font-size: 30px;
+  color: #344562;
+  float: left;
+  line-height: 40px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title .count {
+  font-size: 14px;
+  color: #616161;
+  padding-left: 10px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title .count .num {
+  font-size: 24px;
+  padding: 0 6px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title .powerby {
+  color: #9e9e9e;
+  padding-left: 14px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title .name {
+  color: #9e9e9e;
+  padding-left: 8px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .desc {
+  color: #9e9e9e;
+  font-size: 14px;
+  line-height: 40px;
+  float: right;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .options {
+  background: #f9fafb;
+  color: #008ed6;
+  height: 37px;
+  line-height: 37px;
+  margin-top: 15px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .options span {
+  padding: 0 15px;
+  font-size: 14px;
+}
+
+.yicon-myicon-main .myicon-prj-right .yicon-myicon-list {
+  width: 865px;
 }
