@@ -1,0 +1,75 @@
+.yicon-spec-title {
+  height: 60px;
+  color: #344562;
+  font-size: 24px;
+  line-height: 60px;
+  background: #fff;
+}
+
+.yicon-spec-title .txt {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+.yicon-spec {
+  margin: 22px auto 0 auto;
+  width: 1080px;
+  background: #f9fafe;
+}
+
+.yicon-spec .menu {
+  float: left;
+  width: 220px;
+}
+
+.yicon-spec .menu .menu-item {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 32px;
+  font-size: 14px;
+  color: #6c7689;
+}
+
+.yicon-spec .menu .menu-item.on {
+  background: #657289;
+  color: #fff;
+}
+
+.yicon-spec .spec-content {
+  float: left;
+  width: 800px;
+  padding: 0 30px;
+  background: #fff;
+  color: #555;
+}
+
+.yicon-spec .spec-content .content-title {
+  height: 148px;
+  text-align: center;
+  line-height: 148px;
+  font-size: 36px;
+}
+
+.yicon-spec .spec-content .spec-detail .item {
+  border-top: 1px solid #f2f2f2;
+  height: 244px;
+  padding: 40px 0;
+}
+
+.yicon-spec .spec-content .spec-detail .item .spec-info {
+  float: left;
+  width: 186px;
+  font-size: 14px;
+}
+
+.yicon-spec .spec-content .spec-detail .item .spec-info .info-title {
+  font-size: 30px;
+}
+
+.yicon-spec .spec-content .spec-detail .item .spec-img-box {
+  float: left;
+  margin-left: 26px;
+  width: 244px;
+  height: 244px;
+  background: #89d6ff;
+}
