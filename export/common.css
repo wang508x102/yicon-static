@@ -199,6 +199,7 @@ iframe {
   float: left;
   margin-right: 20px;
   position: relative;
+  z-index: 20;
 }
 
 .yicon-nav .yicon-nav-container .quick-menu .lists .name_arrow {
