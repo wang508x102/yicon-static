@@ -363,6 +363,7 @@ iframe {
 
 .yicon-nav .yicon-nav-container .nav-menu-info .nav-car .nav-car-count {
   font-size: 14px;
+  vertical-align: middle;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car {
@@ -374,6 +375,7 @@ iframe {
   left: -30px;
   top: 55px;
   background-color: #fff;
+  display: none;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .user-car .arrow {
@@ -611,7 +613,7 @@ iframe {
   color: #008ed6;
   line-height: 26px;
   float: right;
-  margin-left: 6px;
+  margin-left: 6 px;
   background-color: #fff;
 }
 
@@ -619,7 +621,7 @@ iframe {
   width: 220px;
   height: 34px;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 
 .yicon-nav .yicon-nav-container .nav-menu-info .search-panel .search-panel-fields {
@@ -643,10 +645,11 @@ iframe {
 
 .yicon-nav .yicon-nav-container .nav-menu-info .search-panel .search-icon {
   font-size: 20px;
+  line-height: 20px;
   display: inline-block;
   position: absolute;
   left: 7px;
-  top: 12px;
+  top: 22px;
   color: #000;
 }
 

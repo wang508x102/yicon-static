@@ -30,6 +30,7 @@ table{border-collapse:collapse;border-spacing:0}
 th{text-align:inherit}
 iframe{display:block}
 .ml-15{margin-left:15px;}
+
 /* common css */
 /* 主容器 */
 .yicon-container {}
@@ -278,6 +279,7 @@ iframe{display:block}
       .nav-car{
         .nav-car-count{
           font-size:14px;
+          vertical-align: middle;
         }
       }
       /* car 浮层*/
@@ -290,7 +292,7 @@ iframe{display:block}
         left: -30px;
         top: 55px;
         background-color: #fff;
-
+        display: none;
         .arrow {
           width: 0;
           height: 0;
@@ -532,7 +534,7 @@ iframe{display:block}
                 color: $btnColor;
                 line-height: 26px;
                 float: right;
-                margin-left: 6px;
+                margin-left: 6 px;
                 background-color: #fff;
               }
 
@@ -548,7 +550,7 @@ iframe{display:block}
         width: 220px;
         height: 34px;
         overflow: hidden;
-        margin-top: 10px;
+        margin-top: 14px;
 
         .search-panel-fields {
           background-color: #fff;
@@ -572,10 +574,11 @@ iframe{display:block}
 
         .search-icon {
           font-size:20px;
+          line-height: 20px;
           display: inline-block;
           position: absolute;
           left: 7px;
-          top: 12px;
+          top: 22px;
           color:#000;
         }
 

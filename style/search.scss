@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import "../style/module/icon-detail-item";
+@import "../style/module/btn";
+@import "../style/module/slider";
+
+.yicon-search {
+	&-info {
+		background-color: #fff;
+		border-bottom: 1px solid #dadcde;
+		box-shadow: 0 0 5px #dadcde;
+
+		&-container {
+			width: 1100px;
+			margin: 0 auto;
+			padding: 20px 0;
+
+			.options {
+				.search-result {
+					color: #616161;
+					overflow: hidden;
+					float: left;
+					display: inline-block;
+					margin-left: 20px;
+					font-size: 16px;
+					&-count {
+						color: #ff5555;
+					}
+				}
+				.slider{
+					margin-top: 0;
+				}
+			}
+
+		}
+
+	}
+
+	&-main {
+		width: 1100px;
+		margin: 14px auto 0;
+
+		.yicon-detail-list {
+			width: 1136px;
+			margin-left: -18px
+		}
+
+	}
+
+}

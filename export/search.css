@@ -158,87 +158,41 @@
   line-height: 16px;
 }
 
-.yicon-detail-info {
+.yicon-search-info {
   background-color: #fff;
   border-bottom: 1px solid #dadcde;
   box-shadow: 0 0 5px #dadcde;
 }
 
-.yicon-detail-info-container {
+.yicon-search-info-container {
   width: 1100px;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-.yicon-detail-info-container .title {
-  height: 40px;
-  overflow: hidden;
-  line-height: 50px;
-  margin: 0 10px;
-}
-
-.yicon-detail-info-container .title > h2 {
-  font-size: 30px;
-  color: #344562;
-  float: left;
-  line-height: 40px;
-}
-
-.yicon-detail-info-container .title .count {
-  font-size: 14px;
+.yicon-search-info-container .options .search-result {
   color: #616161;
-  padding-left: 10px;
-}
-
-.yicon-detail-info-container .title .count .num {
-  font-size: 24px;
-  padding: 0 6px;
-}
-
-.yicon-detail-info-container .title .powerby {
-  color: #9e9e9e;
-  padding-left: 14px;
-}
-
-.yicon-detail-info-container .title .name {
-  color: #9e9e9e;
-  padding-left: 8px;
-}
-
-.yicon-detail-info-container .options {
-  margin-top: 15px;
-}
-
-.yicon-detail-info-container .options .tools {
-  color: #fff;
   overflow: hidden;
   float: left;
   display: inline-block;
+  margin-left: 20px;
+  font-size: 16px;
 }
 
-.yicon-detail-info-container .options .tools .options-btns {
-  margin-right: 6px;
-  float: left;
+.yicon-search-info-container .options .search-result-count {
+  color: #ff5555;
 }
 
-.yicon-detail-info-container .options .tools .btns-blue:hover {
-  color: #fff;
+.yicon-search-info-container .options .slider {
+  margin-top: 0;
 }
 
-.yicon-detail-info-container .options .tools .ml10 {
-  margin-left: 10px;
-}
-
-.yicon-detail-main {
+.yicon-search-main {
   width: 1100px;
   margin: 14px auto 0;
 }
 
-.yicon-detail-main .yicon-detail-list {
+.yicon-search-main .yicon-detail-list {
   width: 1136px;
   margin-left: -18px;
-}
-
-.user-car {
-  display: none;
 }
