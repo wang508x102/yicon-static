@@ -158,41 +158,41 @@
   line-height: 16px;
 }
 
-.yicon-search-info {
+.yicon-myicon-info {
   background-color: #fff;
   border-bottom: 1px solid #dadcde;
   box-shadow: 0 0 5px #dadcde;
 }
 
-.yicon-search-info-container {
+.yicon-myicon-info-container {
   width: 1100px;
   margin: 0 auto;
   padding: 20px 0;
 }
 
-.yicon-search-info-container .options .search-result {
-  color: #616161;
+.yicon-myicon-info-container .options .title {
   overflow: hidden;
+  margin: 0 10px;
   float: left;
   display: inline-block;
-  margin-left: 20px;
-  font-size: 16px;
 }
 
-.yicon-search-info-container .options .search-result-count {
-  color: #ff5555;
+.yicon-myicon-info-container .options .title > h2 {
+  font-size: 24px;
+  color: #344562;
+  float: left;
 }
 
-.yicon-search-info-container .options .slider {
+.yicon-myicon-info-container .options .slider {
   margin-top: 0;
 }
 
-.yicon-search-main {
+.yicon-myicon-main {
   width: 1100px;
   margin: 14px auto 0;
 }
 
-.yicon-search-main .yicon-search-list {
+.yicon-myicon-main .yicon-myicon-list {
   width: 1136px;
   margin-left: -18px;
 }
