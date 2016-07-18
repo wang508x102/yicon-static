@@ -1,0 +1,109 @@
+.yicon-upload-icon {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 1080px;
+}
+
+.yicon-upload-icon .upload-area {
+  height: 435px;
+  border: 3px dashed #dcdcdc;
+  background: #fff;
+}
+
+.yicon-upload-icon .upload-area .upload-instruct {
+  margin: 112px 460px 0 460px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.yicon-upload-icon .upload-area .upload-instruct .upload-icon {
+  line-height: 160px;
+  color: #eaeaea;
+  font-size: 160px;
+}
+
+.yicon-upload-icon .upload-area .upload-instruct .click-upload {
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+.yicon-upload-icon .upload-area.drag-on {
+  border: 3px dashed #008ed6;
+}
+
+.yicon-upload-icon .upload-area.drag-on .upload-icon {
+  color: #008ed6;
+}
+
+.yicon-upload-icon .upload-area.drag-on .click-upload {
+  display: none;
+}
+
+.yicon-upload-icon .upload-notes .note-bar {
+  margin: 27px 0;
+  line-height: 28px;
+  height: 28px;
+}
+
+.yicon-upload-icon .upload-notes .note-bar .note-title {
+  float: left;
+  color: #344562;
+  font-size: 24px;
+}
+
+.yicon-upload-icon .upload-notes .note-bar .download {
+  margin-left: 10px;
+  width: 91px;
+  height: 26px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  font-size: 12px;
+  color: #212121;
+  background: #fff;
+}
+
+.yicon-upload-icon .upload-notes .note-bar .to-detail {
+  float: right;
+  font-size: 14px;
+}
+
+.yicon-upload-icon .upload-notes .note-bar .to-detail .to-detail-link {
+  color: #008ed6;
+}
+
+.yicon-upload-icon .upload-notes .note-bar .to-detail .to-detail-arr {
+  font-size: 12px;
+}
+
+.yicon-upload-icon .upload-notes .note-bar .to-detail-link:hover {
+  color: #00a1f3;
+}
+
+.yicon-upload-icon .upload-notes .note-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.yicon-upload-icon .upload-notes .note-list .note-item {
+  width: 236px;
+}
+
+.yicon-upload-icon .upload-notes .note-list .note-item .note-img-box {
+  height: 134px;
+  background: #89d6ff;
+}
+
+.yicon-upload-icon .upload-notes .note-list .note-item .note-item-title {
+  margin-top: 22px;
+  line-height: 16px;
+  color: #344562;
+  font-size: 16px;
+}
+
+.yicon-upload-icon .upload-notes .note-list .note-item .note-item-txt {
+  margin-top: 10px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #616161;
+}
