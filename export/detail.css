@@ -7,8 +7,7 @@
 }
 
 .icon-detail-item > .info {
-  border: 1px solid #f1f3f6;
-  padding: 12px;
+  padding: 13px;
   width: 72px;
   margin: 0 auto;
 }
@@ -86,6 +85,7 @@
 .icon-detail-item:hover .info, .icon-detail-item.active .info {
   border: 1px solid #ccc;
   background-color: #fff;
+  padding: 12px;
 }
 
 .icon-detail-item:hover .info .icon, .icon-detail-item.active .info .icon {

@@ -2,8 +2,8 @@
   font-family: iconfont;
   font-style: normal;
   font-weight: normal;
-  src: url(./../font/QIconLab.eot?v=1.0.6);
-  src: url(./../font/QIconLab.eot?#iefix&#iefix&amp;v=1.0.6) format("embedded-opentype"), url(./../font/QIconLab.woff?v=1.0.6) format("woff"), url(./../font/QIconLab.ttf?v=1.0.6) format("truetype"), url(./../font/QIconLab.svg?v=1.0.6#icomoonregular) format("svg");
+  src: url(./../font/QIconLab.eot);
+  src: url(./../font/QIconLab.eot?#iefix&#iefix) format("embedded-opentype"), url(./../font/QIconLab.woff) format("woff"), url(./../font/QIconLab.ttf) format("truetype"), url(./../font/QIconLab.svg#iconfont) format("svg");
 }
 
 .iconfont {

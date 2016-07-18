@@ -37,13 +37,27 @@
 
 	&-main {
 		width: 1100px;
-		margin: 14px auto 0;
-
+		margin: 0 auto;
+		.yicon-search-title{
+			font-size: 16px;
+			color:#616161;
+			padding:28px 0 12px;
+		}
 		.yicon-search-list {
 			width: 1136px;
-			margin-left: -18px
+			margin-left: -18px;
+			padding-bottom:18px;
+			position: relative;
 		}
-
+		.yicon-search-list:before{
+			content: "";
+		 	width:1080px;
+			height: 1px;
+			background-color: #d8dbdd;
+			position: absolute;
+			bottom:0;
+			left: 28px;
+		}
 	}
 
 }
