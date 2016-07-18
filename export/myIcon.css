@@ -118,6 +118,10 @@
   font-size: 23px;
 }
 
+.btns-blue:hover {
+  color: #fff;
+}
+
 .slider {
   float: right;
   margin-top: 12px;
@@ -273,11 +277,18 @@
   padding-left: 8px;
 }
 
-.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .desc {
-  color: #9e9e9e;
-  font-size: 14px;
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title .tips {
+  font-size: 20px;
   line-height: 40px;
-  float: right;
+  color: #344562;
+  padding-left: 8px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .prj-details .title .return {
+  font-size: 14px;
+  color: #008ed6;
+  line-height: 40px;
+  padding-left: 10px;
 }
 
 .yicon-myicon-main .myicon-prj-right .myicon-prj-info .options {
@@ -293,6 +304,96 @@
   font-size: 14px;
 }
 
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .tools {
+  padding: 15px 0 24px;
+  overflow: hidden;
+  border-bottom: 1px solid #d8d9d9;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .tools .options-btns {
+  float: left;
+  margin-right: 10px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .tools .dropdown {
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #dfdfdf;
+  height: 36px;
+  line-height: 36px;
+  color: #616161;
+  padding: 0 10px;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .tools .dropdown .iconfont {
+  color: #929aac;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .tools .fg {
+  background: #dfdfdf;
+  width: 1px;
+  height: 38px;
+  float: left;
+  margin-right: 10px;
+}
+
+.yicon-myicon-main .myicon-prj-right .myicon-prj-info .tools .vs {
+  float: left;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 38px;
+  padding-right: 10px;
+  color: #616161;
+}
+
 .yicon-myicon-main .myicon-prj-right .yicon-myicon-list {
   width: 865px;
+}
+
+.yicon-myicon-history .icon-detail-item .tool, .yicon-myiconvs .icon-detail-item .tool {
+  visibility: hidden;
+}
+
+.yicon-myicon-history .icon-detail-item:hover .info, .yicon-myicon-history .icon-detail-item.active .info, .yicon-myiconvs .icon-detail-item:hover .info, .yicon-myiconvs .icon-detail-item.active .info {
+  border: none;
+  padding: 13px;
+}
+
+.yicon-myicon-history .icon-detail-item:hover .info .icon, .yicon-myicon-history .icon-detail-item.active .info .icon, .yicon-myiconvs .icon-detail-item:hover .info .icon, .yicon-myiconvs .icon-detail-item.active .info .icon {
+  color: #555f6e;
+}
+
+.yicon-myiconvs-title {
+  font-size: 16px;
+  color: #616161;
+  padding: 0 40px;
+  line-height: 36px;
+}
+
+.yicon-myiconvs .yicon-myiconvs-info {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.yicon-myiconvs .yicon-myiconvs-info .options {
+  clear: both;
+}
+
+.yicon-myiconvs .yicon-myiconvs-info .operate-icon {
+  float: left;
+  font-size: 30px;
+  color: #9e9e9e;
+  margin-top: 40px;
+}
+
+.yicon-myiconvs .yicon-myiconvs-info:before {
+  content: "";
+  width: 780px;
+  margin: 0 40px;
+  border-bottom: 1px solid #d8dbdd;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
 }

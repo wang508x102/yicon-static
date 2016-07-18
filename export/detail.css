@@ -118,6 +118,10 @@
   font-size: 23px;
 }
 
+.btns-blue:hover {
+  color: #fff;
+}
+
 .slider {
   float: right;
   margin-top: 12px;
