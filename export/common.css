@@ -229,7 +229,8 @@ iframe {
 
 .yicon-nav .yicon-nav-container .quick-menu-sub {
   background-color: #000c15;
-  width: 140px;
+  min-width: 140px;
+  width: auto;
   font-size: 14px;
   position: absolute;
   left: -5px;
@@ -243,14 +244,32 @@ iframe {
 .yicon-nav .yicon-nav-container .quick-menu-sub li {
   padding: 0 20px;
   line-height: 36px;
+  white-space: nowrap;
+}
+
+.yicon-nav .yicon-nav-container .quick-menu-sub .quick-menu-sub-num {
+  background: #fff;
+  color: #000;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 3px;
+  font-style: normal;
 }
 
 .yicon-nav .yicon-nav-container .quick-menu-sub li:hover a {
   color: #3bbaff;
 }
 
+.yicon-nav .yicon-nav-container .quick-menu-sub li:hover a i {
+  color: #000;
+}
+
 .yicon-nav .yicon-nav-container .quick-menu-sub .current a {
   color: #3bbaff;
+}
+
+.yicon-nav .yicon-nav-container .quick-menu-sub .current a i {
+  color: #000;
 }
 
 .yicon-nav .yicon-nav-container .head-nav {
