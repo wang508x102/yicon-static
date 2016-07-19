@@ -166,6 +166,161 @@
   line-height: 16px;
 }
 
+.m-dialog {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: auto;
+  border: 1px solid #cacacb;
+  box-shadow: 5px 5px 5px #ccc;
+  z-index: 99;
+}
+
+.pos1 {
+  left: 0;
+  top: 0;
+}
+
+.pos2 {
+  top: 240px;
+  left: 0;
+}
+
+.pos3 {
+  left: 400px;
+}
+
+.myicon-dialog {
+  background-color: #fff;
+  min-width: 370px;
+}
+
+.myicon-dialog-title {
+  margin: 0 24px;
+  overflow: hidden;
+  height: 62px;
+  line-height: 62px;
+  position: relative;
+  border-bottom: 1px solid #ececec;
+}
+
+.myicon-dialog-title h4 {
+  font-size: 18px;
+  color: #616161;
+  float: left;
+}
+
+.myicon-dialog-title .iconfont {
+  font-size: 20px;
+  float: right;
+}
+
+.myicon-dialog-content {
+  padding: 0 24px;
+}
+
+.myicon-dialog-foot {
+  padding: 16px 24px;
+  background-color: #f9fafe;
+  overflow: hidden;
+}
+
+.myicon-dialog-foot .options-btns {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  font-size: 14px;
+  float: right;
+  margin-left: 8px;
+}
+
+.project-dialog {
+  padding: 0 0 20px 0;
+}
+
+.project-dialog .project-form {
+  color: #616161;
+}
+
+.project-dialog .project-form .field {
+  margin-top: 20px;
+  overflow: hidden;
+  line-height: 36px;
+}
+
+.project-dialog .project-form .field-label {
+  width: 74px;
+  float: left;
+  display: inline;
+}
+
+.project-dialog .project-form .field-set {
+  font-size: 14px;
+  float: left;
+}
+
+.project-dialog .project-form .field-set .project-name, .project-dialog .project-form .field-set .project-author, .project-dialog .project-form .field-set .project-collaborators {
+  padding: 0 10px;
+  width: 278px;
+  border: 1px solid #dfdfdf;
+  height: 36px;
+}
+
+.project-dialog .project-form .field-set .project-author .iconfont {
+  float: right;
+}
+
+.project-dialog .project-form .field-btn {
+  float: left;
+  margin-left: 8px;
+}
+
+.project-dialog .project-form .field-btn .add-collaborators {
+  padding: 0 20px;
+  border: 1px solid #d2d2d2;
+  height: 36px;
+  font-size: 14px;
+  color: #616161;
+  background-color: #fbfbfb;
+}
+
+.project-dialog .project-form .collaborators {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.project-dialog .project-form .collaborators-title {
+  font-size: 14px;
+  color: #616161;
+  line-height: 34px;
+}
+
+.project-dialog .project-form .collaborators-list li {
+  float: left;
+  color: #616161;
+  padding: 0 6px;
+  background: #f1f3f6;
+  margin-right: 6px;
+  margin-top: 4px;
+  border-radius: 3px;
+  line-height: 26px;
+  height: 26px;
+}
+
+.project-dialog .project-form .collaborators-list li .iconfont {
+  font-size: 14px;
+  float: right;
+  cursor: pointer;
+  vertical-align: top;
+  margin-left: 2px;
+}
+
+.project-dialog .project-tips {
+  font-size: 16px;
+  padding: 20px 0;
+  color: #616161;
+}
+
 .yicon-myicon-info {
   background-color: #fff;
   border-bottom: 1px solid #dadcde;
