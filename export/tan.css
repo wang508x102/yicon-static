@@ -77,6 +77,7 @@
   top: 10px;
   right: 10px;
   color: #d8dbdd;
+  cursor: pointer;
 }
 
 .tan-container .tan-detail {
@@ -222,6 +223,7 @@
   border: 1px solid #dfdfdf;
   font-size: 14px;
   color: #616161;
+  cursor: pointer;
 }
 
 .tan-container .tan-detail .select-color .color-select-box .color-show {
@@ -243,6 +245,7 @@
   height: 36px;
   border: 1px solid #dfdfdf;
   color: #616161;
+  cursor: pointer;
 }
 
 .tan-container .tan-detail .select-color .set-size .drop-down {

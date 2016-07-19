@@ -18,6 +18,7 @@
     top: 10px;
     right: 10px;
     color: #d8dbdd;
+    cursor: pointer;
   }
   .tan-detail {
     float: left;
@@ -147,6 +148,7 @@
         border: 1px solid #dfdfdf;
         font-size: 14px;
         color: #616161;
+        cursor: pointer;
         .color-show {
           display: inline-block;
           vertical-align: middle;
@@ -166,6 +168,7 @@
         height: 36px;
         border: 1px solid #dfdfdf;
         color: #616161;
+        cursor: pointer;
         .drop-down {
           margin-left: 6px;
           color: #abb1be;
