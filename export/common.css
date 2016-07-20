@@ -177,12 +177,12 @@ iframe {
 }
 
 .yicon-nav .yicon-nav-container .logo .small-img {
-  background: url(./../images/qiconbg.png) 0 0 no-repeat;
+  background: url(./../images/qiconbg.png) 0 center no-repeat;
   display: inline-block;
   float: left;
   width: 140px;
-  height: 32px;
-  margin: 15px 0 0;
+  height: 64px;
+  margin: 0;
 }
 
 .yicon-nav .yicon-nav-container .logo p {
