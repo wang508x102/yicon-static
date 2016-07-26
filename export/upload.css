@@ -125,40 +125,7 @@
 }
 
 .upload-setting .icon-big-img {
-  float: left;
-  position: relative;
   margin-left: 20px;
-  width: 305px;
-  height: 305px;
-}
-
-.upload-setting .icon-big-img .hline, .upload-setting .icon-big-img .vline {
-  position: absolute;
-  background: #c2e7f5;
-}
-
-.upload-setting .icon-big-img .hline {
-  width: 305px;
-  height: 1px;
-}
-
-.upload-setting .icon-big-img .vline {
-  width: 1px;
-  height: 305px;
-}
-
-.upload-setting .icon-big-img .big-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 305px;
-  height: 305px;
-  line-height: 305px;
-  text-align: center;
-}
-
-.upload-setting .icon-big-img .big-icon .big {
-  font-size: 303px;
 }
 
 .upload-setting .setting-opts {
@@ -226,6 +193,65 @@
 
 .upload-setting .setting-opts .setting-opt .icon-tag-list .icon-tag .delete {
   cursor: pointer;
+}
+
+.icon-big-img {
+  float: left;
+  position: relative;
+  width: 305px;
+  height: 305px;
+}
+
+.icon-big-img .hline, .icon-big-img .vline {
+  position: absolute;
+  background: #c2e7f5;
+}
+
+.icon-big-img .hline {
+  width: 305px;
+  height: 1px;
+}
+
+.icon-big-img .vline {
+  width: 1px;
+  height: 305px;
+}
+
+.icon-big-img .big-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 305px;
+  height: 305px;
+  line-height: 305px;
+  text-align: center;
+}
+
+.icon-big-img .big-icon .big {
+  font-size: 303px;
+}
+
+.icon-big-img.small {
+  width: 257px;
+  height: 257px;
+}
+
+.icon-big-img.small .hline {
+  width: 257px;
+}
+
+.icon-big-img.small .vline {
+  height: 257px;
+}
+
+.icon-big-img.small .big-icon {
+  width: 257px;
+  height: 257px;
+  line-height: 257px;
+}
+
+.icon-big-img.small .big-icon .big {
+  font-size: 255px;
 }
 
 .yicon-upload-container {

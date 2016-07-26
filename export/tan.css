@@ -1,0 +1,270 @@
+.icon-big-img {
+  float: left;
+  position: relative;
+  width: 305px;
+  height: 305px;
+}
+
+.icon-big-img .hline, .icon-big-img .vline {
+  position: absolute;
+  background: #c2e7f5;
+}
+
+.icon-big-img .hline {
+  width: 305px;
+  height: 1px;
+}
+
+.icon-big-img .vline {
+  width: 1px;
+  height: 305px;
+}
+
+.icon-big-img .big-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 305px;
+  height: 305px;
+  line-height: 305px;
+  text-align: center;
+}
+
+.icon-big-img .big-icon .big {
+  font-size: 303px;
+}
+
+.icon-big-img.small {
+  width: 257px;
+  height: 257px;
+}
+
+.icon-big-img.small .hline {
+  width: 257px;
+}
+
+.icon-big-img.small .vline {
+  height: 257px;
+}
+
+.icon-big-img.small .big-icon {
+  width: 257px;
+  height: 257px;
+  line-height: 257px;
+}
+
+.icon-big-img.small .big-icon .big {
+  font-size: 255px;
+}
+
+.tan-container {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 635px;
+  height: 257px;
+  padding: 50px;
+  background: #fff;
+}
+
+.tan-container .cancel-box {
+  line-height: 32px;
+  font-size: 32px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #d8dbdd;
+  cursor: pointer;
+}
+
+.tan-container .tan-detail {
+  float: left;
+  margin-left: 30px;
+}
+
+.tan-container .tan-detail .tan-detail-header .icon-name {
+  color: #616161;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.tan-container .tan-detail .tan-detail-header .icon-name .to-edit-name {
+  margin-left: 12px;
+  border: 0;
+  outline: 0;
+  background: #fff;
+  color: #008ed6;
+  font-size: 14px;
+}
+
+.tan-container .tan-detail .tan-detail-header .edit-name {
+  display: none;
+  height: 38px;
+}
+
+.tan-container .tan-detail .tan-detail-header .edit-name .input-name {
+  float: left;
+  width: 196px;
+  height: 36px;
+  border: 1px solid #dfdfdf;
+  border-right: 0;
+  outline: 0;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+.tan-container .tan-detail .tan-detail-header .edit-name .save {
+  float: left;
+  width: 68px;
+  height: 38px;
+  background: #008ed6;
+  outline: 0;
+  border: 0;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.tan-container .tan-detail .tan-detail-header .edit-name .cancel {
+  float: left;
+  margin-left: 8px;
+  width: 68px;
+  height: 38px;
+  background: #fbfbfb;
+  outline: 0;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #616161;
+}
+
+.tan-container .tan-detail .tan-detail-header.edit .icon-name {
+  display: none;
+}
+
+.tan-container .tan-detail .tan-detail-header.edit .edit-name {
+  display: block;
+}
+
+.tan-container .tan-detail .other-info {
+  height: 42px;
+  line-height: 42px;
+  color: #9e9e9e;
+  font-size: 14px;
+}
+
+.tan-container .tan-detail .set-tag .set-input-wrap {
+  width: 344px;
+  height: 26px;
+  border: 1px solid #dfdfdf;
+}
+
+.tan-container .tan-detail .set-tag .set-input-wrap .set-input {
+  margin-left: 10px;
+  width: 314px;
+  outline: none;
+  line-height: 26px;
+  font-size: 12px;
+  border: 0;
+}
+
+.tan-container .tan-detail .set-tag .set-input-wrap .set-tag-icon {
+  color: #6f6f6f;
+}
+
+.tan-container .tan-detail .set-tag .icon-tag-list {
+  padding: 0 10px;
+  overflow: hidden;
+  width: 324px;
+  height: 40px;
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+}
+
+.tan-container .tan-detail .set-tag .icon-tag-list .icon-tag {
+  float: left;
+  padding: 3px;
+  margin: 8px 7px 0 0;
+  font-size: 12px;
+  border-radius: 6px;
+  background: #f1f3f6;
+  color: #787979;
+}
+
+.tan-container .tan-detail .set-tag .icon-tag-list .icon-tag .delete {
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.tan-container .tan-detail .select-color {
+  margin-top: 18px;
+}
+
+.tan-container .tan-detail .select-color .color-list {
+  float: left;
+}
+
+.tan-container .tan-detail .select-color .color-list .color-item {
+  float: left;
+  width: 18px;
+  height: 38px;
+}
+
+.tan-container .tan-detail .select-color .color-select-box {
+  float: left;
+  margin-left: 8px;
+  width: 96px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  font-size: 14px;
+  color: #616161;
+  cursor: pointer;
+}
+
+.tan-container .tan-detail .select-color .color-select-box .color-show {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 7px;
+  width: 18px;
+  height: 18px;
+  background: #ff5555;
+}
+
+.tan-container .tan-detail .select-color .set-size {
+  float: left;
+  margin-left: 8px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  width: 51px;
+  height: 36px;
+  border: 1px solid #dfdfdf;
+  color: #616161;
+  cursor: pointer;
+}
+
+.tan-container .tan-detail .select-color .set-size .drop-down {
+  margin-left: 6px;
+  color: #abb1be;
+}
+
+.tan-container .tan-detail .download-box {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tan-container .tan-detail .download-box .download-btn {
+  width: 110px;
+  height: 38px;
+  background: #008ed6;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  border-radius: 2px;
+}

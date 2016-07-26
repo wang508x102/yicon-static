@@ -125,40 +125,7 @@
 }
 
 .upload-setting .icon-big-img {
-  float: left;
-  position: relative;
   margin-left: 20px;
-  width: 305px;
-  height: 305px;
-}
-
-.upload-setting .icon-big-img .hline, .upload-setting .icon-big-img .vline {
-  position: absolute;
-  background: #c2e7f5;
-}
-
-.upload-setting .icon-big-img .hline {
-  width: 305px;
-  height: 1px;
-}
-
-.upload-setting .icon-big-img .vline {
-  width: 1px;
-  height: 305px;
-}
-
-.upload-setting .icon-big-img .big-icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 305px;
-  height: 305px;
-  line-height: 305px;
-  text-align: center;
-}
-
-.upload-setting .icon-big-img .big-icon .big {
-  font-size: 303px;
 }
 
 .upload-setting .setting-opts {

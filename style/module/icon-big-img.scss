@@ -1,0 +1,48 @@
+.icon-big-img {
+  float: left;
+  position: relative;
+  width: 305px;
+  height: 305px;
+  .hline, .vline {
+    position: absolute;
+    background: #c2e7f5;
+  }
+  .hline {
+    width: 305px;
+    height: 1px;
+  }
+  .vline {
+    width: 1px;
+    height: 305px;
+  }
+  .big-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 305px;
+    height: 305px;
+    line-height: 305px;
+    text-align: center;
+    .big {
+      font-size: 303px;
+    }
+  }
+}
+.icon-big-img.small {
+  width: 257px;
+  height: 257px;
+  .hline {
+    width: 257px;
+  }
+  .vline {
+    height: 257px;
+  }
+  .big-icon {
+    width: 257px;
+    height: 257px;
+    line-height: 257px;
+    .big {
+      font-size: 255px;
+    }
+  }
+}
