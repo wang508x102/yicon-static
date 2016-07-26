@@ -1,6 +1,6 @@
 @charset "utf-8";
 $fontTitleColor:#344562;$fontContentColor:#616161;$fontTipColor:#9e9e9e;$mainColor:#3bbaff;$btnColor:#008ed6;$btnHoverColor:#00b7ee;$iconColor:#555f6e;
-@font-face{font-family:iconfont;font-style:normal;font-weight:normal;src:url(./../font/QIconLab.eot?v=1.0.6);src:url(./../font/QIconLab.eot?#iefix&#iefix&amp;v=1.0.6) format('embedded-opentype'),url(./../font/QIconLab.woff?v=1.0.6) format('woff'),url(./../font/QIconLab.ttf?v=1.0.6) format('truetype'),url(./../font/QIconLab.svg?v=1.0.6#icomoonregular) format('svg')}
+@font-face{font-family:iconfont;font-style:normal;font-weight:normal;src:url(./../font/QIconLab.eot);src:url(./../font/QIconLab.eot?#iefix&#iefix) format('embedded-opentype'),url(./../font/QIconLab.woff) format('woff'),url(./../font/QIconLab.ttf) format('truetype'),url(./../font/QIconLab.svg#iconfont) format('svg')}
 .iconfont{font-family:iconfont!important;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;font-style:normal;vertical-align:middle;}
 .clearfix:after{content:".";display:block;height:0;visibility:hidden;clear:both;}
 .clearfix{*zoom:1;}
@@ -60,12 +60,12 @@ iframe{display:block}
       text-align: center;
 
       .small-img {
-        background: url(./../images/qiconbg.png) 0 0 no-repeat;
+        background: url(./../images/qiconbg.png) 0 center no-repeat;
         display: inline-block;
         float: left;
         width: 140px;
-        height: 32px;
-        margin: 15px 0 0;
+        height: 64px;
+        margin: 0;
       }
 
       p {
@@ -119,7 +119,8 @@ iframe{display:block}
 
     .quick-menu-sub {
       background-color: #000c15;
-      width: 140px;
+      min-width: 140px;
+      width:auto;
       font-size: 14px;
       position: absolute;
       left: -5px;
@@ -131,11 +132,22 @@ iframe{display:block}
       li {
         padding: 0 20px;
         line-height: 36px;
+        white-space: nowrap;
       }
-
+      .quick-menu-sub-num{
+        background: #fff;
+        color:#000;
+        font-size:10px;
+        padding:2px;
+        border-radius: 3px;
+        font-style: normal;
+      }
       li:hover {
         a {
           color: $mainColor;
+          i{
+            color:#000;
+          }
         }
 
       }
@@ -143,6 +155,9 @@ iframe{display:block}
       .current {
         a {
           color: $mainColor;
+          i{
+            color:#000;
+          }
         }
       }
 

@@ -5,8 +5,8 @@
 	float: left;
 	text-align: center;
 	>.info{
-		border: 1px solid #f1f3f6;
-		padding:12px;
+		/*border: 1px solid #f1f3f6;*/
+		padding:13px;
 		width: 72px;
 		margin: 0 auto;
 		/*background-color: #fff;*/
@@ -83,6 +83,7 @@
 	.info{
 		border: 1px solid #ccc;
 		background-color: #fff;
+		padding:12px;
 		.icon{
 			color:#008ed6;
 		}

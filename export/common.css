@@ -2,8 +2,8 @@
   font-family: iconfont;
   font-style: normal;
   font-weight: normal;
-  src: url(./../font/QIconLab.eot?v=1.0.6);
-  src: url(./../font/QIconLab.eot?#iefix&#iefix&amp;v=1.0.6) format("embedded-opentype"), url(./../font/QIconLab.woff?v=1.0.6) format("woff"), url(./../font/QIconLab.ttf?v=1.0.6) format("truetype"), url(./../font/QIconLab.svg?v=1.0.6#icomoonregular) format("svg");
+  src: url(./../font/QIconLab.eot);
+  src: url(./../font/QIconLab.eot?#iefix&#iefix) format("embedded-opentype"), url(./../font/QIconLab.woff) format("woff"), url(./../font/QIconLab.ttf) format("truetype"), url(./../font/QIconLab.svg#iconfont) format("svg");
 }
 
 .iconfont {
@@ -177,12 +177,12 @@ iframe {
 }
 
 .yicon-nav .yicon-nav-container .logo .small-img {
-  background: url(./../images/qiconbg.png) 0 0 no-repeat;
+  background: url(./../images/qiconbg.png) 0 center no-repeat;
   display: inline-block;
   float: left;
   width: 140px;
-  height: 32px;
-  margin: 15px 0 0;
+  height: 64px;
+  margin: 0;
 }
 
 .yicon-nav .yicon-nav-container .logo p {
@@ -229,7 +229,8 @@ iframe {
 
 .yicon-nav .yicon-nav-container .quick-menu-sub {
   background-color: #000c15;
-  width: 140px;
+  min-width: 140px;
+  width: auto;
   font-size: 14px;
   position: absolute;
   left: -5px;
@@ -243,14 +244,32 @@ iframe {
 .yicon-nav .yicon-nav-container .quick-menu-sub li {
   padding: 0 20px;
   line-height: 36px;
+  white-space: nowrap;
+}
+
+.yicon-nav .yicon-nav-container .quick-menu-sub .quick-menu-sub-num {
+  background: #fff;
+  color: #000;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 3px;
+  font-style: normal;
 }
 
 .yicon-nav .yicon-nav-container .quick-menu-sub li:hover a {
   color: #3bbaff;
 }
 
+.yicon-nav .yicon-nav-container .quick-menu-sub li:hover a i {
+  color: #000;
+}
+
 .yicon-nav .yicon-nav-container .quick-menu-sub .current a {
   color: #3bbaff;
+}
+
+.yicon-nav .yicon-nav-container .quick-menu-sub .current a i {
+  color: #000;
 }
 
 .yicon-nav .yicon-nav-container .head-nav {
